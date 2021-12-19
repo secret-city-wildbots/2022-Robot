@@ -172,6 +172,9 @@ AddOutputFilter chunkFilter
 			<Item Name="robotprofile.vi" Type="VI" URL="../robotprofile.vi"/>
 			<Item Name="sensors.vi" Type="VI" URL="../sensors.vi"/>
 		</Item>
+		<Item Name="LimeLight Pipelines" Type="Folder" URL="../../LimeLight Pipelines">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Hardware Interfaces" Type="Folder">
 				<Item Name="ConvertFalconDriveEncoders.vi" Type="VI" URL="../ConvertFalconDriveEncoders.vi"/>
