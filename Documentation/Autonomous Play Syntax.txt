@@ -1,0 +1,170 @@
+-----------------------------------------------------------
+
+DriveEnd=;
+# This VI sets the all of the joysticks to zero and permanently halts the drive sequencer.
+
+-----------------------------------------------------------
+
+DriveWaitForTime=param1;
+# Pauses the drive sequencer until the specified amount of time has elapsed.
+
+1. Time delay (ms), set to -1 to use the dashboard-configurable value (s).
+
+-----------------------------------------------------------
+
+DriveWaitForManip=param1;
+# Pauses the drive sequencer until the manipulator sequencer has reached (or passed) the specified step.
+
+1. Manipulator step to wait for.
+
+-----------------------------------------------------------
+
+DriveWaitForButton=;
+# Pauses the drive sequencer until the driver presses the "advance system check" button on the joystick.
+
+-----------------------------------------------------------
+
+DriveWaitForBalls=param1,param2;
+# Pauses the drive sequencer until the specified number of balls have been shot.
+
+1. Number of balls to be shot [1,5].
+2. Timeout (ms), or set to -1 to disable.
+
+-----------------------------------------------------------
+
+DriveDistanceX=param1,param2;
+# This VI drives the robot in the field-oriented x-direction, note that there is no feedback control loop.
+
+1. The drive distance specified in inches.
+2. The signed strafe command, note that the user must match the command sign to the distance sign.
+
+-----------------------------------------------------------
+
+DriveDistanceXAdvanced=param1,param2,param3,param4;
+# This VI drives the robot in the field-oriented x-direction, with orientation lock and overshoot prevention.
+
+1. The drive distance specified in inches [-630,630].
+2. The number of inches under the goal allowed [0,630].
+3. The number of inches above the goal allowed [0,630].
+4. Timeout specified in milliseconds, set to -1 to ignore [-1,15000].
+
+-----------------------------------------------------------
+DriveDistanceY=param1,param2;
+# This VI drives the robot in the field-oriented y-direction, note that there is no feedback control loop.
+
+1. The drive distance specified in inches.
+2. The signed strafe command, note that the user must match the command sign to the distance sign.
+
+-----------------------------------------------------------
+
+DriveDistanceYAdvanced=param1,param2,param3,param4;
+# This VI drives the robot in the field-oriented y-direction, with orientation lock and overshoot prevention.
+
+1. The drive distance specified in inches [-323,323].
+2. The number of inches under the goal allowed [0,323].
+3. The number of inches above the goal allowed [0,323].
+4. Timeout specified in milliseconds, set to -1 to ignore [-1,15000].
+
+-----------------------------------------------------------
+
+DriveAngleH=param1,param2;
+# This VI rotates the robot to the specified field-oriented angle.
+
+1. The goal angle specified in degrees on [0,360].
+2. The signed rotation command, note that the user must specify the desired rotation direction.
+
+-----------------------------------------------------------
+
+DriveAngleHAdvanced=param1,param2;
+# This VI rotates the robot to the specified field-oriented angle. The angle has to be within the specified range for a certain amount of time.
+
+1. The goal angle specified in degrees on [0,360].
+2. The error allowed, the number of degrees on either side of the goal allowed [0,360].
+
+-----------------------------------------------------------
+DriveSetRobotPosition=param1,param2;
+# This VI manually updates the robot's position, use to zero-out accumulated pose error.
+
+1. The field-oriented x position specified in inches.
+2. The field-oriented y position specified in inches.
+
+-----------------------------------------------------------
+
+DrivePath=param1,param2,param3,param4,param5;
+# This VI uses the pure-pursuit algorithm to follow the specified path.
+
+1. The maximum distance error magnitude (in) to allow advancement to the next step.
+2. The maximum angle error magnitude (deg) to allow advancement to the next step.
+3. The maximum elapsed time (ms) before advancement to the next step, set to -1 to ignore.
+4. The name of the path to follow, do not include the .csv extension.
+5. Whether we use the given path or need the robot to choose a subpath (normal, robot_suffix).
+
+-----------------------------------------------------------
+***********************************************************
+-----------------------------------------------------------
+
+ManipEnd=;
+# This VI sets the all of the joysticks buttons to safe positions and permanently halts the manipulator sequencer.
+
+-----------------------------------------------------------
+
+ManipWaitForTime=param1;
+# Pauses the manipulator sequencer until the specified amount of time has elapsed.
+
+1. Time delay (ms), set to -1 to use the dashboard-configurable value (s).
+
+-----------------------------------------------------------
+
+ManipWaitForDrive=param1;
+# Pauses the manipulator sequencer until the drive sequencer has reached (or passed) the specified step.
+
+1. Drive step to wait for.
+
+-----------------------------------------------------------
+
+ManipWaitForButton=;
+# Pauses the manipulator sequencer until the driver presses the "advance system check" button on the joystick.
+
+-----------------------------------------------------------
+
+ManipWaitForDistance=param1,param2;
+# Pauses the manipulator sequencer until the robot has driven along a path for a specified distance measured either from the start or the end of the path.
+
+1. If postive this is the distance from start of path (in), if negative this is the distance from the end of the path (in) [-1200,1200].
+2. Timeout (ms), or set to -1 to disable.
+
+-----------------------------------------------------------
+
+ManipWaitForBalls=param1,param2;
+# Pauses the drive sequencer until the specified number of balls have been shot.
+
+1. Number of balls to be shot [1,5].
+2. Timeout (ms), or set to -1 to disable.
+
+-----------------------------------------------------------
+
+ManipChangeState=param1;
+# This VI changes the robot's master state.
+
+1. Specifies the desired robot master state.
+
+-----------------------------------------------------------
+
+ManipIntake=;
+# Toggles the intake deployment.
+
+-----------------------------------------------------------
+
+ManipAutoTarget=param1;
+# This VI enters or exists auto-targeting mode.
+
+1. Set to "off" to exit auto-targeting, set to "on" to enter auto-targeting.
+
+-----------------------------------------------------------
+
+ManipPrespin=param1;
+# This VI starts or stops the shooter pre-spin
+
+1. Set to "on" to prespin or "off" to stop pre-spinning
+
+-----------------------------------------------------------

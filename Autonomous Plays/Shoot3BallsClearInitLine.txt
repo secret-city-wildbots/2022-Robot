@@ -1,0 +1,20 @@
+Name: Shoot3BallsClearInitLine
+Starting Location: middle of robot on initiation line and near Power Port
+Push Start Location (x,y,h): (509.2, measured distance from your alliance's trench wall, 0)
+Number of balls to start: 3
+What it does: shoots 3 balls and clears the initiation line
+Revision: 10/09/2021
+Confidence: very confident
+*
+DriveWaitForTime=-1;
+DriveWaitForManip=4;
+DriveDistanceX=-50,-0.5;
+DriveEnd=;
+*=;
+ManipPrespin=on;
+ManipWaitForTime=-1;
+ManipAutoTarget=on;
+ManipWaitForBalls=3,8000;
+ManipAutoTarget=off;
+ManipPrespin=off;
+ManipEnd=;

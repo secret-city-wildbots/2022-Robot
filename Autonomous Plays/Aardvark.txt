@@ -1,0 +1,13 @@
+Name: Aardvark
+Starting Location: no restrictions
+Push Start Location (x,y,h): (509.2, measured distance from your alliance's trench wall, 0 or 180)
+Number of balls to start: 0 - 3 
+What it does: doesn't move or shoot
+Revision: 10/09/2021
+Confidence: very confident
+*
+DriveWaitForTime=-1;
+DriveEnd=;
+*=;
+ManipWaitForTime=-1;
+ManipEnd=;
