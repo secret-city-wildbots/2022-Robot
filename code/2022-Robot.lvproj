@@ -168,6 +168,7 @@ AddOutputFilter chunkFilter
 			<Item Name="outputs.vi" Type="VI" URL="../outputs.vi"/>
 			<Item Name="pdpterminals.vi" Type="VI" URL="../pdpterminals.vi"/>
 			<Item Name="refnums.vi" Type="VI" URL="../refnums.vi"/>
+			<Item Name="robotconstants.vi" Type="VI" URL="../robotconstants.vi"/>
 			<Item Name="robotprofile.vi" Type="VI" URL="../robotprofile.vi"/>
 			<Item Name="sensors.vi" Type="VI" URL="../sensors.vi"/>
 		</Item>
@@ -322,7 +323,6 @@ AddOutputFilter chunkFilter
 			<Item Name="TriggerUpdate.vim" Type="VI" URL="../TriggerUpdate.vim"/>
 		</Item>
 		<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
-		<Item Name="constants3.vi" Type="VI" URL="../constants3.vi"/>
 		<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 		<Item Name="MasterRobotModeController.vi" Type="VI" URL="../MasterRobotModeController.vi"/>
 		<Item Name="MasterStateController.vi" Type="VI" URL="../MasterStateController.vi"/>
