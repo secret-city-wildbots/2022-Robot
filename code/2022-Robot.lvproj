@@ -163,8 +163,8 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Global Variables" Type="Folder">
 			<Item Name="autoninfo.vi" Type="VI" URL="../autoninfo.vi"/>
+			<Item Name="driverdata.vi" Type="VI" URL="../driverdata.vi"/>
 			<Item Name="dscommands.vi" Type="VI" URL="../dscommands.vi"/>
-			<Item Name="dsdata.vi" Type="VI" URL="../dsdata.vi"/>
 			<Item Name="outputs.vi" Type="VI" URL="../outputs.vi"/>
 			<Item Name="pdpterminals.vi" Type="VI" URL="../pdpterminals.vi"/>
 			<Item Name="refnums.vi" Type="VI" URL="../refnums.vi"/>
