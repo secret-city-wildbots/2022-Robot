@@ -163,14 +163,13 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Global Variables" Type="Folder">
 			<Item Name="autonomousinfo.vi" Type="VI" URL="../autonomousinfo.vi"/>
+			<Item Name="drivercommands.vi" Type="VI" URL="../drivercommands.vi"/>
 			<Item Name="driverdata.vi" Type="VI" URL="../driverdata.vi"/>
-			<Item Name="dscommands.vi" Type="VI" URL="../dscommands.vi"/>
-			<Item Name="outputs.vi" Type="VI" URL="../outputs.vi"/>
-			<Item Name="pdpterminals.vi" Type="VI" URL="../pdpterminals.vi"/>
-			<Item Name="refnums.vi" Type="VI" URL="../refnums.vi"/>
+			<Item Name="refnumbers.vi" Type="VI" URL="../refnumbers.vi"/>
 			<Item Name="robotconstants.vi" Type="VI" URL="../robotconstants.vi"/>
-			<Item Name="robotprofile.vi" Type="VI" URL="../robotprofile.vi"/>
-			<Item Name="sensors.vi" Type="VI" URL="../sensors.vi"/>
+			<Item Name="robotoutputs.vi" Type="VI" URL="../robotoutputs.vi"/>
+			<Item Name="robotprofiles.vi" Type="VI" URL="../robotprofiles.vi"/>
+			<Item Name="sensordata.vi" Type="VI" URL="../sensordata.vi"/>
 		</Item>
 		<Item Name="LimeLight Pipelines" Type="Folder" URL="../../LimeLight Pipelines">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
