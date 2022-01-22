@@ -180,29 +180,25 @@ AddOutputFilter chunkFilter
 		<Item Name="Sensors" Type="Folder">
 			<Item Name="Hardware Interfaces" Type="Folder">
 				<Item Name="ConvertFalconDriveEncoders.vi" Type="VI" URL="../ConvertFalconDriveEncoders.vi"/>
+				<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
+				<Item Name="DetectPressureAnomalies.vi" Type="VI" URL="../DetectPressureAnomalies.vi"/>
 				<Item Name="GetPigeonIMU.vi" Type="VI" URL="../GetPigeonIMU.vi"/>
 				<Item Name="GetShifterState.vi" Type="VI" URL="../GetShifterState.vi"/>
 				<Item Name="GetSimulatedIMU.vi" Type="VI" URL="../GetSimulatedIMU.vi"/>
 				<Item Name="GetSimulatedPressure.vi" Type="VI" URL="../GetSimulatedPressure.vi"/>
+				<Item Name="GetSwerveAbsoluteAzimuth.vi" Type="VI" URL="../GetSwerveAbsoluteAzimuth.vi"/>
+				<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
+				<Item Name="GetVisionHub.vi" Type="VI" URL="../GetVisionHub.vi"/>
 			</Item>
 			<Item Name="Pose and Targeting" Type="Folder">
 				<Item Name="CalculateRobotGroundVelocity.vi" Type="VI" URL="../CalculateRobotGroundVelocity.vi"/>
 				<Item Name="EstimateTargetingInformation.vi" Type="VI" URL="../EstimateTargetingInformation.vi"/>
 				<Item Name="FusePose.vi" Type="VI" URL="../FusePose.vi"/>
-				<Item Name="FuseTargeting.vi" Type="VI" URL="../FuseTargeting.vi"/>
-				<Item Name="LIDARRangingPose.vi" Type="VI" URL="../LIDARRangingPose.vi"/>
 				<Item Name="SwerveModuleOdometry.vi" Type="VI" URL="../SwerveModuleOdometry.vi"/>
-				<Item Name="VisionPnPPose.vi" Type="VI" URL="../VisionPnPPose.vi"/>
 				<Item Name="VisionPose.vi" Type="VI" URL="../VisionPose.vi"/>
 			</Item>
-			<Item Name="ChoosePath.vi" Type="VI" URL="../ChoosePath.vi"/>
-			<Item Name="ConvertPotentiometerToDegrees.vi" Type="VI" URL="../ConvertPotentiometerToDegrees.vi"/>
-			<Item Name="DetectPressureAnomalies.vi" Type="VI" URL="../DetectPressureAnomalies.vi"/>
 			<Item Name="GetHighPrioritySensors.vi" Type="VI" URL="../GetHighPrioritySensors.vi"/>
 			<Item Name="GetLowPrioritySensors.vi" Type="VI" URL="../GetLowPrioritySensors.vi"/>
-			<Item Name="GetSwerveAbsoluteAzimuth.vi" Type="VI" URL="../GetSwerveAbsoluteAzimuth.vi"/>
-			<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
-			<Item Name="GetVisionHub.vi" Type="VI" URL="../GetVisionHub.vi"/>
 			<Item Name="InitSensors.vi" Type="VI" URL="../InitSensors.vi"/>
 			<Item Name="MeasureDriveAcceleration.vi" Type="VI" URL="../MeasureDriveAcceleration.vi"/>
 			<Item Name="PoseAndTargeting.vi" Type="VI" URL="../PoseAndTargeting.vi"/>
