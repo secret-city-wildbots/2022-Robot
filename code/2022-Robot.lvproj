@@ -188,6 +188,7 @@ AddOutputFilter chunkFilter
 				<Item Name="GetSimulatedPressure.vi" Type="VI" URL="../GetSimulatedPressure.vi"/>
 				<Item Name="GetSwerveAbsoluteAzimuth.vi" Type="VI" URL="../GetSwerveAbsoluteAzimuth.vi"/>
 				<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
+				<Item Name="GetTurretAngle.vi" Type="VI" URL="../GetTurretAngle.vi"/>
 				<Item Name="GetVisionHub.vi" Type="VI" URL="../GetVisionHub.vi"/>
 			</Item>
 			<Item Name="Pose and Targeting" Type="Folder">
