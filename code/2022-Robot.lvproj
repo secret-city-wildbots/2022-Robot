@@ -136,7 +136,9 @@ AddOutputFilter chunkFilter
 			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
 			<Item Name="AutoSequencer.vi" Type="VI" URL="../AutoSequencer.vi"/>
 		</Item>
-		<Item Name="Autonomous Paths" Type="Folder"/>
+		<Item Name="Autonomous Paths" Type="Folder" URL="../../Autonomous Paths">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Autonomous Plays" Type="Folder" URL="../../Autonomous Plays">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
