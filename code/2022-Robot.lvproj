@@ -118,7 +118,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DriveWaitForTime.vi" Type="VI" URL="../DriveWaitForTime.vi"/>
 			</Item>
 			<Item Name="Manipulator Sequencer" Type="Folder">
-				<Item Name="ManipAutoTarget.vi" Type="VI" URL="../ManipAutoTarget.vi"/>
+				<Item Name="ManipShootBalls.vi" Type="VI" URL="../ManipShootBalls.vi"/>
 				<Item Name="ManipChangeState.vi" Type="VI" URL="../ManipChangeState.vi"/>
 				<Item Name="ManipEnd.vi" Type="VI" URL="../ManipEnd.vi"/>
 				<Item Name="ManipForceFire.vi" Type="VI" URL="../ManipForceFire.vi"/>
@@ -136,9 +136,7 @@ AddOutputFilter chunkFilter
 			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
 			<Item Name="AutoSequencer.vi" Type="VI" URL="../AutoSequencer.vi"/>
 		</Item>
-		<Item Name="Autonomous Paths" Type="Folder" URL="../../Autonomous Paths">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="Autonomous Paths" Type="Folder"/>
 		<Item Name="Autonomous Plays" Type="Folder" URL="../../Autonomous Plays">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>

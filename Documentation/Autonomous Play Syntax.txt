@@ -150,15 +150,17 @@ ManipChangeState=param1;
 
 -----------------------------------------------------------
 
-ManipIntake=;
-# Toggles the intake deployment.
+ManipIntake=param1;
+# Turns the intake on or off.
+
+1. Set to "on" to run the intake or set to "off" to stop the intake.
 
 -----------------------------------------------------------
 
-ManipAutoTarget=param1;
+ShootBalls=param1;
 # This VI enters or exists auto-targeting mode.
 
-1. Set to "off" to exit auto-targeting, set to "on" to enter auto-targeting.
+1. Set to "on" to start shooting balls or set to "off" to stop shooting balls.
 
 -----------------------------------------------------------
 
