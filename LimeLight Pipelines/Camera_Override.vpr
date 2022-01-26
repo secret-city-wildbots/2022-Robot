@@ -17,7 +17,7 @@ cross_a_y:0
 cross_b_a:1
 cross_b_x:0
 cross_b_y:0
-desc:Override
+desc:Camera_Override
 desired_contour_region:0
 dilation_steps:0
 direction_filter:0
@@ -31,6 +31,9 @@ image_flip:0
 image_source:0
 img_to_show:0
 intersection_filter:0
+multigroup_max:6
+multigroup_min:1
+multigroup_rejector:0
 pipeline_led_enabled:0
 pipeline_led_power:100
 pipeline_res:0
@@ -54,5 +57,7 @@ solve3d_precise:0
 solve3d_zoffset:0
 val_max:255
 val_min:60
+x_outlier_miqr:1.500000
 y_max:1.000000
 y_min:-1.000000
+y_outlier_miqr:1.500000
