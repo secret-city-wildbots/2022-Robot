@@ -1,0 +1,14 @@
+Name: Five Ball Auto Test
+Starting Location: right bumpers on line
+Push Start Location (x,y,h): (300,75, 0)
+Number of balls to start: 1
+What it does: picks up 5 balls
+Revision: 1/24/2022
+Confidence: not
+*
+DriveWaitForTime=-1;
+DrivePath=6,20,15000,FiveBallAutoTest,normal;
+DriveEnd=;
+*=;
+ManipWaitForTime=-1;
+ManipEnd=;
