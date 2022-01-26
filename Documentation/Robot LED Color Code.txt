@@ -4,9 +4,9 @@ Orange - robot is running autonomously w/o alarms
 Green Chaser - robot is controlled by human w/o alarms
 ------------------------------------------------------------
 Light Blue - normal
-Yellow - shooter is spinning
-Purple - shooter is ready to fire
-Aquamarine - shooter is shooting
+Yellow - ***
+Purple - ***
+Aquamarine - ***
 Off - robot is diverting power to critical subsystem
 Blinking Green - Human Player signal
 ------------------------------------------------------------
