@@ -1,3 +1,5 @@
 > so, so many things...
 
+> there seems to be some fluctuation in pressure transducer reading at higher pressures
+
 > calibrate wheel diameter
