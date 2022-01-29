@@ -253,6 +253,7 @@ AddOutputFilter chunkFilter
 				</Item>
 				<Item Name="InitMiscellaneous.vi" Type="VI" URL="../InitMiscellaneous.vi"/>
 				<Item Name="OutputCompressor.vi" Type="VI" URL="../OutputCompressor.vi"/>
+				<Item Name="StateHapticEngine.vi" Type="VI" URL="../StateHapticEngine.vi"/>
 				<Item Name="StatePowerManagement.vi" Type="VI" URL="../StatePowerManagement.vi"/>
 			</Item>
 			<Item Name="Shooter" Type="Folder">
