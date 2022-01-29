@@ -224,6 +224,7 @@ AddOutputFilter chunkFilter
 					<Item Name="SwerveLatchGoalAngle.vi" Type="VI" URL="../SwerveLatchGoalAngle.vi"/>
 					<Item Name="SwerveModifyDriveCommand.vi" Type="VI" URL="../SwerveModifyDriveCommand.vi"/>
 					<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
+					<Item Name="SwerveUnwrapGoalAngle.vi" Type="VI" URL="../SwerveUnwrapGoalAngle.vi"/>
 				</Item>
 				<Item Name="Shifting" Type="Folder">
 					<Item Name="StutterShifterState.vi" Type="VI" URL="../StutterShifterState.vi"/>
