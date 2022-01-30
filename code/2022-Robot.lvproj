@@ -19,8 +19,8 @@
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
 		<Property Name="alias.value" Type="Str">10.42.65.2</Property>
-		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
+		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,7AAE;TARGET_TYPE,RT;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">7AAE</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
