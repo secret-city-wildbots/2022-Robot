@@ -217,13 +217,14 @@ AddOutputFilter chunkFilter
 				<Item Name="Swerve Toolbox" Type="Folder">
 					<Item Name="SwerveChooseBestAngle.vi" Type="VI" URL="../SwerveChooseBestAngle.vi"/>
 					<Item Name="SwerveChooseCenter.vi" Type="VI" URL="../SwerveChooseCenter.vi"/>
-					<Item Name="SwerveHeadingLock.vi" Type="VI" URL="../SwerveHeadingLock.vi"/>
+					<Item Name="SwerveAntiDrift.vi" Type="VI" URL="../SwerveAntiDrift.vi"/>
 					<Item Name="SwerveJoystickRotationScaling.vi" Type="VI" URL="../SwerveJoystickRotationScaling.vi"/>
 					<Item Name="SwerveJoystickStrafeScaling.vi" Type="VI" URL="../SwerveJoystickStrafeScaling.vi"/>
 					<Item Name="SwerveKinematics.vi" Type="VI" URL="../SwerveKinematics.vi"/>
 					<Item Name="SwerveLatchGoalAngle.vi" Type="VI" URL="../SwerveLatchGoalAngle.vi"/>
 					<Item Name="SwerveModifyDriveCommand.vi" Type="VI" URL="../SwerveModifyDriveCommand.vi"/>
 					<Item Name="FieldOrientedTransform.vi" Type="VI" URL="../FieldOrientedTransform.vi"/>
+					<Item Name="SwerveUnwrapGoalAngle.vi" Type="VI" URL="../SwerveUnwrapGoalAngle.vi"/>
 				</Item>
 				<Item Name="Shifting" Type="Folder">
 					<Item Name="StutterShifterState.vi" Type="VI" URL="../StutterShifterState.vi"/>
@@ -252,6 +253,7 @@ AddOutputFilter chunkFilter
 				</Item>
 				<Item Name="InitMiscellaneous.vi" Type="VI" URL="../InitMiscellaneous.vi"/>
 				<Item Name="OutputCompressor.vi" Type="VI" URL="../OutputCompressor.vi"/>
+				<Item Name="StateHapticEngine.vi" Type="VI" URL="../StateHapticEngine.vi"/>
 				<Item Name="StatePowerManagement.vi" Type="VI" URL="../StatePowerManagement.vi"/>
 			</Item>
 			<Item Name="Shooter" Type="Folder">
@@ -300,6 +302,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="ErrorLatch.vi" Type="VI" URL="../ErrorLatch.vi"/>
 			<Item Name="GenerateSinusoidalOutput.vi" Type="VI" URL="../GenerateSinusoidalOutput.vi"/>
+			<Item Name="GenerateSquarewaveOutput.vi" Type="VI" URL="../GenerateSquarewaveOutput.vi"/>
 			<Item Name="GetRefNumFast.vi" Type="VI" URL="../GetRefNumFast.vi"/>
 			<Item Name="InterpolateCalibrationValue.vi" Type="VI" URL="../InterpolateCalibrationValue.vi"/>
 			<Item Name="Latch.vim" Type="VI" URL="../Latch.vim"/>
@@ -748,12 +751,14 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_PotentiometerRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Potentiometer/WPI_PotentiometerRefNum Registry Get.vi"/>
 				<Item Name="WPI_Power CAN Device Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power CAN Device Type.ctl"/>
 				<Item Name="WPI_Power Discovered CAN Devices.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Discovered CAN Devices.vi"/>
+				<Item Name="WPI_Power Enable PD Switched Power.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Enable PD Switched Power.vi"/>
 				<Item Name="WPI_Power Get PD Faults.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PD Faults.vi"/>
 				<Item Name="WPI_Power Get PD Voltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PD Voltage.vi"/>
 				<Item Name="WPI_Power Get Pneumatic Faults.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get Pneumatic Faults.vi"/>
 				<Item Name="WPI_Power Get roboRIO Rail Faults.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get roboRIO Rail Faults.vi"/>
 				<Item Name="WPI_Power Pneumatics Type Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Pneumatics Type Cache.vi"/>
 				<Item Name="WPI_Power PowerDist Type Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power PowerDist Type Cache.vi"/>
+				<Item Name="WPI_PowerERRSwitchNotSupported.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_PowerERRSwitchNotSupported.vi"/>
 				<Item Name="WPI_PWMChannelCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMChannelCache.vi"/>
 				<Item Name="WPI_PWMChannelCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMChannelCacheOp.ctl"/>
 				<Item Name="WPI_PWMClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMClose.vi"/>
@@ -837,7 +842,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
