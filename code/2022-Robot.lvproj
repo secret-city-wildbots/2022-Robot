@@ -146,7 +146,6 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Communications" Type="Folder">
-			<Item Name="ConfigureRobotProfile.vi" Type="VI" URL="../ConfigureRobotProfile.vi"/>
 			<Item Name="DriverStationGetCommands.vi" Type="VI" URL="../DriverStationGetCommands.vi"/>
 			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
 			<Item Name="DriverStationPushData.vi" Type="VI" URL="../DriverStationPushData.vi"/>
@@ -182,7 +181,6 @@ AddOutputFilter chunkFilter
 				<Item Name="GetPigeonIMU.vi" Type="VI" URL="../GetPigeonIMU.vi"/>
 				<Item Name="GetShifterState.vi" Type="VI" URL="../GetShifterState.vi"/>
 				<Item Name="GetSimulatedIMU.vi" Type="VI" URL="../GetSimulatedIMU.vi"/>
-				<Item Name="GetSimulatedPressure.vi" Type="VI" URL="../GetSimulatedPressure.vi"/>
 				<Item Name="GetSwerveAbsoluteAzimuth.vi" Type="VI" URL="../GetSwerveAbsoluteAzimuth.vi"/>
 				<Item Name="GetSwerveEncoders.vi" Type="VI" URL="../GetSwerveEncoders.vi"/>
 				<Item Name="GetTurretAngle.vi" Type="VI" URL="../GetTurretAngle.vi"/>
@@ -332,6 +330,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 		<Item Name="ResetAndDefineConstants.vi" Type="VI" URL="../ResetAndDefineConstants.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="SetRobotProfile.vi" Type="VI" URL="../SetRobotProfile.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
