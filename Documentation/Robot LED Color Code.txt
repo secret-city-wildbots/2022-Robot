@@ -3,12 +3,13 @@ Red Chaser - master caution alarm is active
 Orange - robot is running autonomously w/o alarms
 Green Chaser - robot is controlled by human w/o alarms
 ------------------------------------------------------------
-Light Blue - normal
-Yellow - ***
-Purple - ***
-Aquamarine - ***
+Light Blue - normal driving
+Pink - intaking CARGO
+Pink (flashing) - intaking too many CARGO
+Yellow - shooter spinning
+Aquamarine - shooter firing
 Off - robot is diverting power to critical subsystem
-Blinking Green - Human Player signal
+Green (blinking) - signaling the HUMAN PLAYER
 ------------------------------------------------------------
 
 
