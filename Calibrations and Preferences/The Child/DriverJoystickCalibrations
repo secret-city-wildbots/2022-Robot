@@ -1,0 +1,32 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>20.0</Version>
+<Array>
+<Name>Data</Name>
+<Dimsize>6</Dimsize>
+<DBL>
+<Name>Forward Position Wheel 4</Name>
+<Val>6.29921259842520E-2</Val>
+</DBL>
+<DBL>
+<Name>Forward Position Wheel 4</Name>
+<Val>6.29921259842520E-2</Val>
+</DBL>
+<DBL>
+<Name>Forward Position Wheel 4</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Forward Position Wheel 4</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Forward Position Wheel 4</Name>
+<Val>7.87401574803150E-3</Val>
+</DBL>
+<DBL>
+<Name>Forward Position Wheel 4</Name>
+<Val>2.36220472440945E-2</Val>
+</DBL>
+</Array>
+</LVData>
