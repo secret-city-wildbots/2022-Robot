@@ -8,4 +8,7 @@
 > turret subsystem
 > climber subsystem
 
+> AutoManip blocks have not been created/modified/tested for 2022 robot
+> the automatic systems check sequence has not been created yet
+
 > the manipulator tablet-override controls are not configured yet
