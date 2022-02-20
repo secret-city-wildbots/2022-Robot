@@ -1,5 +1,9 @@
-> so, so many things...
+> the pressure transducer disables the compresser at 120 psi (ok) but is off by about 14% in its reported value
+> we have not yet confirmed the stability of the I2C port
 
-> there seems to be some fluctuation in pressure transducer reading at higher pressures
+> defensive pivot driving controls
+> not all driver profiles have been assigned and configured yet
 
-> calibrate wheel diameter
+> shooter subsystem
+> turret subsystem
+> climber subsystem
