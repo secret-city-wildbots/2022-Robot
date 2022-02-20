@@ -7,3 +7,5 @@
 > shooter subsystem
 > turret subsystem
 > climber subsystem
+
+> the manipulator tablet-override controls are not configured yet
