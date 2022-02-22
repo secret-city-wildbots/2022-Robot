@@ -1,0 +1,25 @@
+Name: ThreeBallAuto
+Starting Location: anywhere
+Push Start Location (x,y,h): (measurement,measurement, 0)
+Number of balls to start: 1
+What it does: drives backwards and shoots one preloaded ball
+Revision: 2/21/2022
+Confidence: not
+*
+DriveWaitForTime=-1;
+DriveDistanceX=-80,-.5;
+DriveWaitForManip=4;
+DrivePath=6,20,7000,ThreeBallAuto,normal;
+DriveEnd=;
+*=;
+ManipSetPreloadBalls=1;
+ManipWaitForTime=-1;
+ManipWaitForDrive=2;
+ManipShootBalls=on;
+ManipWaitForBalls=2000;
+ManipShootBalls=off;
+ManipIntake=on;
+ManipWaitForDrive=4;
+ManipIntake=off;
+ManipShootBalls=on;
+ManipEnd=;

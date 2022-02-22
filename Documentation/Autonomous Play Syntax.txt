@@ -160,7 +160,7 @@ ManipSetPreloadBalls=param1;
 1. The number of balls preloaded on the robot [0,1]
 
 -----------------------------------------------------------
-ShootBalls=param1;
+ManipShootBalls=param1;
 # This VI enters or exists auto-targeting mode.
 
 1. Set to "on" to start shooting balls or set to "off" to stop shooting balls.
