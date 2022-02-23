@@ -2,13 +2,11 @@
 > we have not yet confirmed the stability of the I2C port
 
 > defensive pivot driving controls
-> not all driver profiles have been assigned and configured yet
+> not all driver profiles have been configured yet
 
 > shooter subsystem
 > turret subsystem
 > climber subsystem
 
-> AutoManip blocks have not been created/modified/tested for 2022 robot
+> AutoManip blocks have not been tested for 2022 robot
 > the automatic systems check sequence has not been created yet
-
-> the manipulator tablet-override controls are not configured yet
