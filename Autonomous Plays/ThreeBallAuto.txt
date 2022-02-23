@@ -18,4 +18,5 @@ ManipWaitForDrive=2;
 ManipShootBalls=on;
 ManipWaitForBalls=2000;
 ManipShootBalls=off;
+ManipIntake=off;
 ManipEnd=;
