@@ -1,4 +1,4 @@
-Name: Five Ball Auto Test
+Name: FiveBallAuto
 Starting Location: right bumpers on line
 Push Start Location (x,y,h): (300,75, 0)
 Number of balls to start: 1

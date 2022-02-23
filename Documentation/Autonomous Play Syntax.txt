@@ -24,11 +24,10 @@ DriveWaitForButton=;
 
 -----------------------------------------------------------
 
-DriveWaitForBalls=param1,param2;
-# Pauses the drive sequencer until the specified number of balls have been shot.
+DriveWaitForBalls=param1;
+# Pauses the drive sequencer until all balls have been shot.
 
-1. Number of balls to be shot [1,5].
-2. Timeout (ms), or set to -1 to disable.
+1. Timeout (ms), or set to -1 to disable.
 
 -----------------------------------------------------------
 
@@ -135,11 +134,10 @@ ManipWaitForDistance=param1,param2;
 
 -----------------------------------------------------------
 
-ManipWaitForBalls=param1,param2;
-# Pauses the drive sequencer until the specified number of balls have been shot.
+ManipWaitForBalls=param1;
+# Pauses the drive sequencer until all balls have been shot.
 
-1. Number of balls to be shot [1,5].
-2. Timeout (ms), or set to -1 to disable.
+1. Timeout (ms), or set to -1 to disable.
 
 -----------------------------------------------------------
 
@@ -156,8 +154,13 @@ ManipIntake=param1;
 1. Set to "on" to run the intake or set to "off" to stop the intake.
 
 -----------------------------------------------------------
+ManipSetPreloadBalls=param1;
+# Sets the number of preload balls in the robot
 
-ShootBalls=param1;
+1. The number of balls preloaded on the robot [0,1]
+
+-----------------------------------------------------------
+ManipShootBalls=param1;
 # This VI enters or exists auto-targeting mode.
 
 1. Set to "on" to start shooting balls or set to "off" to stop shooting balls.
