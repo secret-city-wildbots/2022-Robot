@@ -3,23 +3,19 @@ Starting Location: right bumpers on line
 Push Start Location (x,y,h): (300,75, 0)
 Number of balls to start: 1
 What it does: shoots 3 balls
-Revision: 2/21/2022
+Revision: 2/22/2022
 Confidence: not
 *
 DriveWaitForTime=-1;
-DriveDistanceX=-80,-.5;
-DriveWaitForManip=4;
 DrivePath=6,20,7000,ThreeBallAuto,normal;
 DriveEnd=;
 *=;
 ManipSetPreloadBalls=1;
+ManipPrespin=on;
 ManipWaitForTime=-1;
+ManipIntake=on;
 ManipWaitForDrive=2;
 ManipShootBalls=on;
 ManipWaitForBalls=2000;
 ManipShootBalls=off;
-ManipIntake=on;
-ManipWaitForDrive=4;
-ManipIntake=off;
-ManipShootBalls=on;
 ManipEnd=;
