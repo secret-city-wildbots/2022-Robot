@@ -15,5 +15,5 @@ ManipPrespin=on;
 ManipWaitForTime=-1;
 ManipWaitForDrive=2;
 ManipShootBalls=on;
-ManipWaitForBalls=-1;
+ManipWaitForBalls=0,-1;
 ManipEnd=;
