@@ -1,14 +1,11 @@
 > the pressure transducer disables the compresser at 120 psi (ok) but is off by about 14% in its reported value
-> we have not yet confirmed the stability of the I2C port
 
-> defensive pivot driving controls
+> automatic homing on MotionMagic failure
+
+
 > not all driver profiles have been configured yet
 
-> shooter subsystem
-> turret subsystem
 > climber subsystem
 
 > AutoManip blocks have not been tested for 2022 robot
 > the automatic systems check sequence has not been created yet
-
-
