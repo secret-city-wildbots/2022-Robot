@@ -134,10 +134,11 @@ ManipWaitForDistance=param1,param2;
 
 -----------------------------------------------------------
 
-ManipWaitForBalls=param1;
-# Pauses the drive sequencer until all balls have been shot.
+ManipWaitForBalls=param1,param2;
+# Pauses the drive sequencer until certain number of balls are in robot. (To wait until all balls are shot, set param1 to 0)
 
-1. Timeout (ms), or set to -1 to disable.
+1.Number of balls desired in robot [0,2]
+2.Timeout (ms), or set to -1 to disable.
 
 -----------------------------------------------------------
 
@@ -171,5 +172,11 @@ ManipPrespin=param1;
 # This VI starts or stops the shooter pre-spin
 
 1. Set to "on" to prespin or "off" to stop pre-spinning
+
+-----------------------------------------------------------
+ManipHumanPlayerSignal=param1;
+# This VI starts or stops the human player signal
+
+1. Set to "on" to signal human player or "off" to stop
 
 -----------------------------------------------------------
