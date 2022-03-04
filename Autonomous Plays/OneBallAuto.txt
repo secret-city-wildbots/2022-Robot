@@ -7,13 +7,15 @@ Revision: 2/22/2022
 Confidence: not
 *
 DriveWaitForTime=-1;
-DriveDistanceX=-50,-.3;
+DriveDistanceX=-80,-.3;
 DriveEnd=;
 *=;
 ManipSetPreloadBalls=1;
 ManipPrespin=on;
 ManipWaitForTime=-1;
 ManipWaitForDrive=2;
+ManipWaitForTime=1000;
 ManipShootBalls=on;
 ManipWaitForBalls=0,-1;
+ManipShootBalls=off;
 ManipEnd=;
