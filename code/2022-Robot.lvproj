@@ -257,6 +257,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Shooter" Type="Folder">
 				<Item Name="InitShooter.vi" Type="VI" URL="../InitShooter.vi"/>
 				<Item Name="OutputShooter.vi" Type="VI" URL="../OutputShooter.vi"/>
+				<Item Name="ShooterBallVelocityCompensation.vi" Type="VI" URL="../ShooterBallVelocityCompensation.vi"/>
 				<Item Name="StateShooter.vi" Type="VI" URL="../StateShooter.vi"/>
 			</Item>
 			<Item Name="Turret" Type="Folder">

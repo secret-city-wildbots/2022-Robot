@@ -3,30 +3,31 @@ Starting Location: on the robot cart
 Push Start Location (x,y,h): (400,200,0)
 Number of balls to start: 0
 What it does: allows the driver to advance through a systems check
-Revision: 10/10/2021
-Confidence: very confident
+Revision: 3/3/2022
+Confidence: never run before so...
 *
-DriveSetRobotPosition=20,160.0;
+DriveWaitForManip=8;
+DriveSetRobotPosition=100,75;
 DriveWaitForButton=;
-DriveDistanceX=100,0.2;
+DriveDistanceX=400,0.2;
 DriveWaitForTime=2000;
 DriveDistanceY=100,0.2;
+DriveWaitForTime=2000;
+DriveDistanceX=-400,-0.2;
+DriveWaitForTime=2000;
+DriveDistanceY=-100,-0.2;
 DriveWaitForTime=2000;
 DriveAngleH=180,0.2;
 DriveWaitForButton=;
 DriveDistanceX=300,1.0;
 DriveEnd=;
 *=;
-ManipWaitForDrive=9;
 ManipWaitForButton=;
-ManipIntake=;
+ManipIntake=on;
 ManipWaitForTime=3000;
-ManipIntake=;
+ManipIntake=off;
 ManipWaitForButton=;
 ManipPrespin=on;
 ManipWaitForButton=;
-ManipAutoTarget=on;
-ManipWaitForButton=;
-ManipAutoTarget=off;
 ManipPrespin=off;
 ManipEnd=;
