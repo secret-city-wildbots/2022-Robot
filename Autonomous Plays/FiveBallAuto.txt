@@ -1,0 +1,42 @@
+Name: FiveBallAuto
+Starting Location: facing forward, right side on line
+Push Start Location (x,y,h): (300,72, 0)
+Number of balls to start: 1
+What it does: picks up 5 balls and shoots 5 balls
+Revision: 3/5/2022
+Confidence: 0/0 times it worked so yay!
+*
+DriveWaitForTime=-1;
+DriveSetRobotPosition=300,72;
+DriveWaitForBalls=0,3000;
+DrivePath=4,4,7000,FiveBallAutoPath1,normal;
+DriveWaitForBalls=0,2000;
+DriveSetRobotPosition=202.5,83.12;
+DrivePath=4,4,5000,FiveBallAutoPath2,normal;
+DriveWaitForManip=16;
+DriveDistanceX=150,1;
+DriveEnd=;
+*=;
+ManipSetPreloadBalls=1;
+ManipPrespin=on;
+ManipWaitForTime=-1;
+ManipShootBalls=on;
+ManipWaitForBalls=0,3000;
+ManipShootBalls=off;
+ManipIntake=on;
+ManipWaitForDrive=4;
+ManipIntake=off;
+ManipShootBalls=on;
+ManipWaitForBalls=0,2000;
+ManipShootBalls=off;
+ManipIntake=on;
+ManipWaitForDrive=7;
+ManipHumanPlayerSignal=on;
+ManipWaitForBalls=2,3000;
+ManipHumanPlayerSignal=off;
+ManipWaitForDrive=8;
+ManipIntake=off;
+ManipShootBalls=on;
+ManipWaitForBalls=0,-1;
+ManipShootBalls=off;
+ManipEnd=;
