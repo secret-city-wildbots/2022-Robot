@@ -1,24 +1,12 @@
 > the pressure transducer disables the compresser at 120 psi (ok) but is off by about 14% in its reported value
 
-> seeing Falcon failures on the azimuth, turret, and cowl motors
+
 > LimeLight latency is back, it appears to be more likely to occur when the wide-angle camera is connected
 
-> stator current limit on the drive Falcons
 > MotionMagic recovery on the cowl
 > MotionMagic recovery on the turret
-> MotionMagic recovery on the azimuth Falcons
 
-> lower shooter PIDF may need to be re-tuned because one flywheel was dropped
-
-> shoot while moving toward/away from the goal
-
-
-
-
-> not all driver profiles have been configured yet
 
 > climber subsystem
 
-> confirm vision pose behavior in auto and while moving in auto
-> some AutoManip blocks have not been tested for 2022 robot
 > the automatic systems check sequence has not been created yet

@@ -4,7 +4,7 @@ Push Start Location (x,y,h): front: (240, 160, 0) side: (302,72,0) or mark where
 Number of balls to start: 1
 What it does: drives backwards and shoots one preloaded ball
 Revision: 3/5/2022
-Confidence: worked 2/2 times
+Confidence: 4/4
 *
 DriveWaitForTime=-1;
 DriveDistanceX=-80,-.4;
