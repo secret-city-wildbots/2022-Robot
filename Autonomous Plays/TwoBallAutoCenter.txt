@@ -4,11 +4,11 @@ Push Start Location (x,y,h): (268,102,0)
 Number of balls to start: 1
 What it does: shoots 2 balls from a center start position
 Revision: 3/5/2022
-Confidence: not tested yet
+Confidence: 3/3
 *
 DriveWaitForTime=-1;
 DriveSetRobotPosition=268,102;
-DrivePath=6,5,-1,TwoBallAutoCenter,normal;
+DrivePath=6,5,-1,TwoBallAutoPathCenter,normal;
 DriveEnd=;
 *=;
 ManipWaitForTime=-1;
@@ -17,5 +17,5 @@ ManipPrespin=on;
 ManipIntake=on;
 ManipWaitForDrive=3;
 ManipShootBalls=on;
-ManipIntake=off;
+ManipWaitForTime=15000;
 ManipEnd=;
