@@ -163,7 +163,13 @@ ManipSetPreloadBalls=param1;
 
 -----------------------------------------------------------
 ManipShootBalls=param1;
-# This VI enters or exists auto-targeting mode.
+# This VI starts or stops the shooter from firing in auto targeting mode.
+
+1. Set to "on" to start shooting balls or set to "off" to stop shooting balls.
+
+-----------------------------------------------------------
+ManipForceFire=param1;
+# This VI forces the shooter to fire even if the conditions are not met.
 
 1. Set to "on" to start shooting balls or set to "off" to stop shooting balls.
 

@@ -3,7 +3,4 @@
 > MotionMagic recovery on the cowl
 > MotionMagic recovery on the turret
 
-
 > climber subsystem
-
-> the automatic systems check sequence has not been created yet
