@@ -1,0 +1,21 @@
+Name: TwoBallAutoLeft
+Starting Location: facing forward, matching the corner
+Push Start Location (x,y,h): (236,188,0)
+Number of balls to start: 1
+What it does: shoots 2 balls from a left start position
+Revision: 3/5/2022
+Confidence: not tested yet
+*
+DriveWaitForTime=-1;
+DriveSetRobotPosition=236,188;
+DrivePath=6,5,-1,TwoBallAutoLeft,normal;
+DriveEnd=;
+*=;
+ManipWaitForTime=-1;
+ManipSetPreloadBalls=1;
+ManipPrespin=on;
+ManipIntake=on;
+ManipWaitForDrive=3;
+ManipShootBalls=on;
+ManipIntake=off;
+ManipEnd=;
