@@ -4,7 +4,7 @@ Push Start Location (x,y,h): (509.2, measured distance from your alliance's tren
 Number of balls to start: 0 - 3 
 What it does: doesn't move or shoot
 Revision: 10/09/2021
-Confidence: very confident
+Confidence: 100/100
 *
 DriveWaitForTime=-1;
 DriveEnd=;
