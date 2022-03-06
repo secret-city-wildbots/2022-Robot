@@ -1,6 +1,3 @@
-> the pressure transducer disables the compresser at 120 psi (ok) but is off by about 14% in its reported value
-
-
 > LimeLight latency is back, it appears to be more likely to occur when the wide-angle camera is connected
 
 > MotionMagic recovery on the cowl
