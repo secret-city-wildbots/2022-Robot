@@ -1,5 +1,7 @@
 > LimeLight latency is back, it appears to be more likely to occur when the wide-angle camera is connected
 
 > MotionMagic is still crashing on the turret
+> onboard softstops for the cowl and the turret
+> deadband on the azimuth controller
 
 > climber subsystem
