@@ -6,6 +6,8 @@
 > onboard softstops for the cowl and the turret
 > deadband on the azimuth controller
 > turret goes to center when vision faults (describe behavior to the drivers)
+> no longer shifts to low gear when shooting (will this touch auto?)
+> fixes multiple bugs with shifting in auto -- need to upload new FiveBallAuto2 path
 
 > climber measurements are not set
 > climber subsystem
