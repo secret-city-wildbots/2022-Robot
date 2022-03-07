@@ -1,6 +1,5 @@
 > LimeLight latency is back, it appears to be more likely to occur when the wide-angle camera is connected
 
-> MotionMagic recovery on the cowl
-> MotionMagic recovery on the turret
+> MotionMagic is still crashing on the turret
 
 > climber subsystem
