@@ -9,6 +9,7 @@
 > fixes multiple bugs with shifting in auto -- need to upload new FiveBallAuto2 path
 > fixes a bug with how the azimuth angle is latched with the slew rate limiter engaged
 > major modification to the drive velocity staturation behavior
+> sets the drive motors to coast (and allows auto to control their mode separately)
 
 ***may still need to be able to put the drive motors into coast
 
