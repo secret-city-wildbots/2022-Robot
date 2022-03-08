@@ -4,14 +4,15 @@
 > automatic detection of the LL disconnecting
 > onboard softstops for the cowl and the turret
 > deadband on the azimuth controller
-> turret goes to center when vision faults (describe behavior to the drivers)
+
+> describe turret behavior to the drivers
+
+
 > no longer shifts to low gear when shooting -- need to 1 ball autos
 > fixes multiple bugs with shifting in auto -- need to upload new FiveBallAuto2 path
 > fixes a bug with how the azimuth angle is latched with the slew rate limiter engaged
 > major modification to the drive velocity staturation behavior
-> sets the drive motors to coast (and allows auto to control their mode separately)
-
-***may still need to be able to put the drive motors into coast
+> sets the drive motors to coast (and allows auto to control their mode separately) -- evaluate
 
 > climber measurements are not set
 > climber subsystem
