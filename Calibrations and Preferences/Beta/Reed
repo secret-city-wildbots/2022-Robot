@@ -3,22 +3,30 @@
 <Version>20.0</Version>
 <Array>
 <Name>Data</Name>
-<Dimsize>4</Dimsize>
+<Dimsize>6</Dimsize>
 <DBL>
 <Name>Forward Position Wheel 4</Name>
-<Val>2800.00000000000000</Val>
+<Val>0.10000000000000</Val>
 </DBL>
 <DBL>
 <Name>Forward Position Wheel 4</Name>
-<Val>2900.00000000000000</Val>
+<Val>1.50000000000000</Val>
 </DBL>
 <DBL>
 <Name>Forward Position Wheel 4</Name>
-<Val>2650.00000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Forward Position Wheel 4</Name>
-<Val>2940.00000000000000</Val>
+<Val>0.10000000000000</Val>
+</DBL>
+<DBL>
+<Name>Forward Position Wheel 4</Name>
+<Val>3.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Forward Position Wheel 4</Name>
+<Val>1.00000000000000</Val>
 </DBL>
 </Array>
 </LVData>
