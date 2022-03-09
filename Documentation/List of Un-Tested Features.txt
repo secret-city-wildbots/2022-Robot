@@ -1,7 +1,6 @@
 *** LimeLight latency is back
 *** MotionMagic is still crashing on the turretand the cowla
 
-> onboard softstops for the cowl and the turret
 > deadband on the azimuth controller
 
 > no longer shifts to low gear when shooting -- need to test 1 ball autos
