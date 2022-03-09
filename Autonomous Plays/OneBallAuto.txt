@@ -1,19 +1,21 @@
 Name: OneBallAuto
-Starting Location: anywhere but prefer bumpers on line
-Push Start Location (x,y,h): (240, 170, 0)
+Starting Location: anywhere you can drive straight back facing forward
+Push Start Location (x,y,h): front: (240, 160, 0) side: (302,72,0) or mark where you put the robot
 Number of balls to start: 1
 What it does: drives backwards and shoots one preloaded ball
-Revision: 2/22/2022
-Confidence: not
+Revision: 3/5/2022
+Confidence: 4/4
 *
 DriveWaitForTime=-1;
-DriveDistanceX=-50,-.3;
+DriveDistanceX=-80,-.4;
 DriveEnd=;
 *=;
 ManipSetPreloadBalls=1;
 ManipPrespin=on;
 ManipWaitForTime=-1;
 ManipWaitForDrive=2;
+ManipWaitForTime=1000;
 ManipShootBalls=on;
 ManipWaitForBalls=0,-1;
+ManipShootBalls=off;
 ManipEnd=;

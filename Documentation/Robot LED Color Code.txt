@@ -5,7 +5,6 @@ Green Chaser - robot is controlled by human w/o alarms
 ------------------------------------------------------------
 Teal - normal driving
 Pink - intaking CARGO
-Pink (flashing) - intaking too many CARGO
 Yellow - shooter spinning
 Aquamarine - shooter firing
 Off - robot is diverting power to critical subsystem

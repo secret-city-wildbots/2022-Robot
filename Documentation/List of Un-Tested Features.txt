@@ -1,14 +1,9 @@
-> the pressure transducer disables the compresser at 120 psi (ok) but is off by about 14% in its reported value
-> we have not yet confirmed the stability of the I2C port
+*** LimeLight latency is back
+*** MotionMagic is still crashing on the turret and the cowl
 
-> defensive pivot driving controls
-> not all driver profiles have been configured yet
+> disables MM when cowl is commanded all the way to the bottom
 
-> shooter subsystem
-> turret subsystem
+> no longer shifts to low gear when shooting -- need to test 1 ball autos
+> fixes multiple bugs with shifting in auto -- need to upload new FiveBallAuto2 path -- test that it does not flip at the end
+
 > climber subsystem
-
-> AutoManip blocks have not been tested for 2022 robot
-> the automatic systems check sequence has not been created yet
-
-
