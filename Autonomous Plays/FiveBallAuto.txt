@@ -3,14 +3,14 @@ Starting Location: facing forward, right side on line
 Push Start Location (x,y,h): (300,72, 0)
 Number of balls to start: 1
 What it does: picks up 5 balls and shoots 5 balls
-Revision: 3/9/2022
+Revision: 3/10/2022
 Confidence: 4/4
 *
 DriveWaitForTime=-1;
 DriveSetRobotPosition=300,72;
 DriveWaitForTime=300;
 DrivePath=6,10,-1,FiveBallAutoPath1,normal;
-DriveWaitForTime=2500;
+DriveWaitForTime=3000;
 DriveSetRobotPosition=205,83.12;
 DrivePath=8,15,-1,FiveBallAutoPath2,normal;
 DriveWaitForBalls=2,2000;
