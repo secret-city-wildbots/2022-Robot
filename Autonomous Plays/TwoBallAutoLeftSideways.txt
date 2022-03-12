@@ -1,13 +1,13 @@
 Name: TwoBallAutoLeftSideways
 Starting Location: line up with tarmac line
-Push Start Location (x,y,h): (236,188,45)
+Push Start Location (x,y,h): (242,207,45)
 Number of balls to start: 1
 What it does: shoots 2 balls from a left start position
 Revision: 3/11/2022
 Confidence: 0/0 but its okay
 *
 DriveWaitForTime=-1;
-DriveSetRobotPosition=236,188;
+DriveSetRobotPosition=242,207;
 DrivePath=6,5,-1,TwoBallAutoLeftSideways,normal;
 DriveEnd=;
 *=;
