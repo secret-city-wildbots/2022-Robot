@@ -7,7 +7,7 @@ Revision: 3/11/2022
 Confidence: 0/0 but its okay
 *
 DriveWaitForTime=-1;
-DriveSetRobotPosition=242,207;
+DriveSetRobotPosition=236,188;
 DrivePath=6,5,-1,TwoBallAutoLeftSideways,normal;
 DriveEnd=;
 *=;
