@@ -1,9 +1,4 @@
 *** LimeLight latency is back
 *** MotionMagic is still crashing on the turret and the cowl
 
-
 > it looks like Kp may be too high on the strafe path following PID 
-
-> added deceleration limit when shooting
-> added speed limit when climbing
-> prespin when tower sensor sees a ball
