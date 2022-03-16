@@ -1,2 +1,6 @@
 *** LimeLight latency is back
 *** MotionMagic is still crashing on the turret and the cowl
+
+> climber softstops
+> LimeLight PiP mode (do we actually want this now?)
+> HUB height offset
