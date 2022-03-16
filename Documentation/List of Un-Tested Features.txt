@@ -1,5 +1,2 @@
 *** LimeLight latency is back
 *** MotionMagic is still crashing on the turret and the cowl
-
-> removes un-needed buttons from the dashboard
-> error messages are sent to the driver station
