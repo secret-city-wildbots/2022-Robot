@@ -2,7 +2,7 @@
 *** MotionMagic is still crashing on the cowl
 
 > still need to try turning off ModifyDriveCommand.vi
-> turret PID is not tuned yet
+> turret PID is not tuned yet (peak output not tuned)
 
 
 > LimeLight PiP mode (do we actually want this now?)
