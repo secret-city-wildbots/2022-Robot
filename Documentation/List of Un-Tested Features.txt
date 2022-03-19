@@ -1,6 +1,8 @@
 *** LimeLight latency is back
-*** MotionMagic is still crashing on the turret and the cowl
+*** MotionMagic is still crashing on the cowl
 
-> climber softstops
+> still need to try turning off ModifyDriveCommand.vi
+> turret PID is not tuned yet
+
+
 > LimeLight PiP mode (do we actually want this now?)
-> HUB height offset
