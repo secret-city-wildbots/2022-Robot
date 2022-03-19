@@ -4,5 +4,7 @@
 > still need to try turning off ModifyDriveCommand.vi
 > turret PID is not tuned yet (peak output not tuned)
 
+> yaw rate measurement
+
 
 > LimeLight PiP mode (do we actually want this now?)
