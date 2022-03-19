@@ -1,7 +1,7 @@
 *** LimeLight latency is back
 *** MotionMagic is still crashing on the cowl
 
-> still need to try turning off ModifyDriveCommand.vi
+
 > turret PID is not tuned yet (peak output not tuned)
 
 > yaw rate measurement
