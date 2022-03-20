@@ -1,3 +1,6 @@
 *** LimeLight latency is back
 
 > LimeLight PiP mode (do we actually want this now?)
+
+> Returning the tower powers to their previous defaults
+> Modifications to the vision pose calculations to account for turret and robot rotation
