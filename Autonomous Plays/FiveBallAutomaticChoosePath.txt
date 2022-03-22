@@ -17,7 +17,6 @@ DrivePath=15,25,-1,FiveBallAutoPath3,robot_suffix;
 DriveEnd=;
 *=;
 ManipPrespin=on;
-ManipSetPreloadBalls=1;
 ManipIntake=on;
 ManipWaitForDrive=1;
 ManipWaitForDistance=12,1;

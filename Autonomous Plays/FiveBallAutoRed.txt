@@ -20,7 +20,6 @@ DriveEnd=;
 *=;
 ManipShootBalls=on;
 ManipPrespin=on;
-ManipSetPreloadBalls=1;
 ManipIntake=on;
 ManipWaitForDrive=3;
 ManipWaitForDistance=50,-1;

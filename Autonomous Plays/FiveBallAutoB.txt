@@ -17,7 +17,6 @@ DriveEnd=;
 *=;
 ManipWaitForTime=-1;
 ManipPrespin=on;
-ManipSetPreloadBalls=1;
 ManipIntake=on;
 ManipWaitForDrive=3;
 ManipShootBalls=on;
