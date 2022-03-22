@@ -1,4 +1,4 @@
-Name: FiveBallAutomaticChoosePath
+Name: FiveBallAutoB
 Starting Location: facing forward, right side on line
 Push Start Location (x,y,h): (300,72, 0)
 Number of balls to start: 1
@@ -6,29 +6,25 @@ What it does: picks up 5 balls and shoots 5 balls
 Revision: 3/21/2022
 Confidence: easy peasy lemon squeezy 
 *
+DriveWaitForTime=-1;
 DriveSetRobotPosition=300,72;
-DrivePath=6,10,-1,FiveBallAutoPath1,robot_suffix;
+DrivePath=6,10,-1,FiveBallAutoBPath1,robot_suffix;
 DriveWaitForTime=2000;
-DriveSetRobotPosition=205,83.12;
-DrivePath=8,15,-1,FiveBallAutoPath2,robot_suffix;
+DrivePath=6,10,-1,FiveBallAutoBPath2,robot_suffix;
 DriveWaitForBalls=2,2000;
-DriveSetRobotPosition=66,58;
-DrivePath=15,25,-1,FiveBallAutoPath3,robot_suffix;
+DrivePath=15,25,-1,FiveBallAutoBPath3,robot_suffix;
 DriveEnd=;
 *=;
+ManipWaitForTime=-1;
 ManipPrespin=on;
 ManipSetPreloadBalls=1;
 ManipIntake=on;
-ManipWaitForDrive=1;
-ManipWaitForDistance=12,1;
-ManipShootBalls=on;
-ManipWaitForDistance=50,-1;
-ManipShootBalls=off;
-ManipWaitForDrive=2;
+ManipWaitForDrive=3;
 ManipShootBalls=on;
 ManipWaitForDrive=4;
+ManipWaitForDistance=-24,-1;
 ManipShootBalls=off;
-ManipWaitForDrive=8;
+ManipWaitForDrive=7;
 ManipShootBalls=on;
 ManipWaitForTime=15000;
 ManipEnd=;
