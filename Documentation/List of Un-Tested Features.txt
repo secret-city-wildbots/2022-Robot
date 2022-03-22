@@ -1,1 +1,4 @@
 *** LimeLight latency is back
+
+> lowered vision trust threshol from 24in to 12in
+> invalid vision data are no longer included in the vision standard deviation model
