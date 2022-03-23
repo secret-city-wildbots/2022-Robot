@@ -156,12 +156,6 @@ ManipIntake=param1;
 1. Set to "on" to run the intake or set to "off" to stop the intake.
 
 -----------------------------------------------------------
-ManipSetPreloadBalls=param1;
-# Sets the number of preload balls in the robot
-
-1. The number of balls preloaded on the robot [0,1]
-
------------------------------------------------------------
 ManipShootBalls=param1;
 # This VI starts or stops the shooter from firing in auto targeting mode.
 

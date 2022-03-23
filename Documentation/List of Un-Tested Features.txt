@@ -3,6 +3,4 @@
 > lowered vision trust threshol from 24in to 12in
 > invalid vision data are no longer included in the vision standard deviation model
 
-> new ball counter (add the ManipPreloadBalls commmand back in autosequencer and to all plays if this doesn't work)
-> force to high gear in auto
 > new 5 ball auto paths
