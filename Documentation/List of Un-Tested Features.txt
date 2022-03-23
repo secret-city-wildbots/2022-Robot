@@ -1,3 +1,6 @@
 *** LimeLight latency is back
 
+> right bumper button is now only a speed modifier button and does not directly force to low gear
+> unifying the max speed while shooting interface
+
 > new 5 ball auto paths
