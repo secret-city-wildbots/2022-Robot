@@ -12,7 +12,6 @@ DrivePath=6,5,-1,TwoBallAutoPathCenter,normal;
 DriveEnd=;
 *=;
 ManipWaitForTime=-1;
-ManipSetPreloadBalls=1;
 ManipPrespin=on;
 ManipIntake=on;
 ManipWaitForDrive=3;

@@ -12,7 +12,6 @@ DriveWaitForBalls=0,3000;
 DrivePath=4,4,7000,ThreeBallAuto,normal;
 DriveEnd=;
 *=;
-ManipSetPreloadBalls=1;
 ManipPrespin=on;
 ManipWaitForTime=-1;
 ManipShootBalls=on;

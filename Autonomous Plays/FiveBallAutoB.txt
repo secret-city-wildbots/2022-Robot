@@ -1,0 +1,28 @@
+Name: FiveBallAutoB
+Starting Location: facing forward, right side on line
+Push Start Location (x,y,h): (300,72, 0)
+Number of balls to start: 1
+What it does: picks up 5 balls and shoots 5 balls
+Revision: 3/21/2022
+Confidence: easy peasy lemon squeezy 
+*
+DriveWaitForTime=-1;
+DrivePath=6,10,-1,FiveBallAutoBPath1,robot_suffix;
+DriveWaitForBalls=0,2000;
+DrivePath=6,10,-1,FiveBallAutoBPath2,robot_suffix;
+DriveWaitForBalls=2,2000;
+DrivePath=15,25,-1,FiveBallAutoBPath3,robot_suffix;
+DriveEnd=;
+*=;
+ManipWaitForTime=-1;
+ManipPrespin=on;
+ManipIntake=on;
+ManipWaitForDrive=2;
+ManipShootBalls=on;
+ManipWaitForDrive=3;
+ManipWaitForDistance=-24,-1;
+ManipShootBalls=off;
+ManipWaitForDrive=6;
+ManipShootBalls=on;
+ManipWaitForTime=15000;
+ManipEnd=;

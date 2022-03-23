@@ -10,7 +10,6 @@ DriveWaitForTime=-1;
 DriveDistanceX=-80,-.4;
 DriveEnd=;
 *=;
-ManipSetPreloadBalls=1;
 ManipPrespin=on;
 ManipWaitForTime=-1;
 ManipWaitForDrive=2;
