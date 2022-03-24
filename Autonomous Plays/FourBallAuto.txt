@@ -1,0 +1,25 @@
+Name: FourBallAuto
+Starting Location: aligned to the left side of the right tarmac area
+Push Start Location (x,y,h): (260,103, 115)
+Number of balls to start: 1
+What it does: picks up 4 balls and shoots 4 balls
+Revision: 3/24/2022
+Confidence: it's worked 0/0 times so far so...
+*
+DriveWaitForTime=-1;
+DrivePath=6,10,-1,FourBallAutoPath1,normal;
+DriveWaitForBalls=2,2000;
+DrivePath=15,15,-1,FourBallAutoPath2,normal;
+DriveEnd=;
+*=;
+ManipWaitForTime=-1;
+ManipPrespin=on;
+ManipIntake=on;
+ManipWaitForBalls=2,1600;
+ManipShootBalls=on;
+ManipWaitForBalls=0,2300;
+ManipShootBalls=off;
+ManipWaitForDrive=4;
+ManipShootBalls=on;
+ManipWaitForTime=15000;
+ManipEnd=;
