@@ -1,18 +1,15 @@
-Name: ThreeBallAutoLong
+Name: ThreeBallAuto
 Starting Location: facing forward, right side on line
 Push Start Location (x,y,h): (300,72, 0)
 Number of balls to start: 1
 What it does: shoots 3 balls
-Revision: 3/12/2022
-Confidence: 0/0 but its okay
+Revision: 3/9/2022
+Confidence: 4/4
 *
 DriveWaitForTime=-1;
 DriveSetRobotPosition=300,72;
 DriveWaitForBalls=0,3000;
 DrivePath=4,4,7000,ThreeBallAuto,normal;
-DriveWaitForManip=10;
-DriveSetRobotPosition=205,83.12;
-DrivePath=4,4,-1,ThreeBallAutoPath2,normal;
 DriveEnd=;
 *=;
 ManipPrespin=on;
@@ -24,6 +21,5 @@ ManipIntake=on;
 ManipWaitForDrive=4;
 ManipIntake=off;
 ManipShootBalls=on;
-ManipWaitForTime=5000;
-ManipShootBalls=off;
+ManipWaitForTime=15000;
 ManipEnd=;

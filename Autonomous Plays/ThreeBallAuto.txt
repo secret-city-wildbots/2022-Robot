@@ -3,23 +3,24 @@ Starting Location: facing forward, right side on line
 Push Start Location (x,y,h): (300,72, 0)
 Number of balls to start: 1
 What it does: shoots 3 balls
-Revision: 3/9/2022
-Confidence: 4/4
+Revision: 3/24/2022
+Confidence: easy peasy lemon squeezy 
 *
 DriveWaitForTime=-1;
-DriveSetRobotPosition=300,72;
-DriveWaitForBalls=0,3000;
-DrivePath=4,4,7000,ThreeBallAuto,normal;
+DrivePath=6,10,-1,ThreeBallAutoBPath1,normal;
+DriveWaitForBalls=0,2000;
+DrivePath=15,10,-1,ThreeBallAutoBPath2,normal;
 DriveEnd=;
 *=;
-ManipPrespin=on;
 ManipWaitForTime=-1;
-ManipShootBalls=on;
-ManipWaitForBalls=0,3000;
-ManipShootBalls=off;
+ManipPrespin=on;
 ManipIntake=on;
+ManipWaitForDrive=2;
+ManipShootBalls=on;
+ManipWaitForDrive=3;
+ManipShootBalls=off;
 ManipWaitForDrive=4;
-ManipIntake=off;
+ManipWaitForTime=1000;
 ManipShootBalls=on;
 ManipWaitForTime=15000;
 ManipEnd=;
