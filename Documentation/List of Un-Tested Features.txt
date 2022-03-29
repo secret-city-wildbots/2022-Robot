@@ -1,3 +1,6 @@
 *** LimeLight latency is back
 
+> wait for target to be centered
+
+
 > Ball velocity compensation is currently off
