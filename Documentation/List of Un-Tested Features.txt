@@ -1,6 +1,9 @@
 *** LimeLight latency is back
+***why is the new LimeLight needing a crosshair adjustment??
 
 > wait for target to be centered
+> new vibration pattern for shooting balls
+> there are now two separate robot poses, one of which never fuses with the vision and is used for auto driving only
 
 
 > Ball velocity compensation is currently off
