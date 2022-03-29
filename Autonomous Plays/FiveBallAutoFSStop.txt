@@ -1,0 +1,21 @@
+Name: FiveBallAutoFSStop
+Starting Location: facing forward, right side on line
+Push Start Location (x,y,h): (300,72, 0)
+Number of balls to start: 1
+What it does: picks up 5 balls and shoots 5 balls
+Revision: 3/28/2022
+Confidence: easy peasy lemon squeezy 
+*
+DriveWaitForTime=-1;
+DrivePath=6,10,-1,FiveBallFastAutoPath1,normal;
+DriveWaitForBalls=0,2000;
+DrivePath=15,10,-1,FiveBallFastAutoPath2,robot_suffix;
+DriveEnd=;
+*=;
+ManipWaitForTime=-1;
+ManipPrespin=on;
+ManipIntake=on;
+ManipWaitForDrive=2;
+ManipShootBalls=on;
+ManipWaitForTime=15000;
+ManipEnd=;

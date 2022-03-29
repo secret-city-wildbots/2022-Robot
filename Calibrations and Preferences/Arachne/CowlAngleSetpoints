@@ -6,19 +6,19 @@
 <Dimsize>4</Dimsize>
 <DBL>
 <Name>Forward Position Wheel 4</Name>
-<Val>12.00000000000000</Val>
+<Val>11.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Forward Position Wheel 4</Name>
-<Val>21.00000000000000</Val>
+<Val>22.50000000000000</Val>
 </DBL>
 <DBL>
 <Name>Forward Position Wheel 4</Name>
-<Val>32.00000000000000</Val>
+<Val>33.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>Forward Position Wheel 4</Name>
-<Val>34.00000000000000</Val>
+<Val>36.00000000000000</Val>
 </DBL>
 </Array>
 </LVData>
