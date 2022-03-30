@@ -7,7 +7,7 @@ Revision: 3/24/2022
 Confidence: 0/0 but its okay
 *
 DriveWaitForTime=-1;
-DrivePath=6,5,-1,TwoBallAutoLeftSideways,normal;
+DrivePath=15,10,-1,TwoBallAutoLeftSideways,normal;
 DriveEnd=;
 *=;
 ManipWaitForTime=-1;

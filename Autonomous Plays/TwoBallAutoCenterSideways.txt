@@ -3,11 +3,11 @@ Starting Location: line up with tarmac line
 Push Start Location (x,y,h): (260,97,135)
 Number of balls to start: 1
 What it does: shoots 2 balls from a left start position
-Revision: 3/24/2022
+Revision: 3/29/2022
 Confidence: 0/0 but its okay
 *
 DriveWaitForTime=-1;
-DrivePath=6,5,-1,TwoBallAutoCenterSideways,normal;
+DrivePath=15,10,-1,TwoBallAutoCenterSideways,normal;
 DriveEnd=;
 *=;
 ManipWaitForTime=-1;
