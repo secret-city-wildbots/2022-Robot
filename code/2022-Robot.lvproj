@@ -136,6 +136,7 @@ AddOutputFilter chunkFilter
 			<Item Name="AutoPlayParser.vi" Type="VI" URL="../AutoPlayParser.vi"/>
 			<Item Name="AutoPlaySelection.vi" Type="VI" URL="../AutoPlaySelection.vi"/>
 			<Item Name="AutoSequencer.vi" Type="VI" URL="../AutoSequencer.vi"/>
+			<Item Name="autonomousinfo.vi" Type="VI" URL="../autonomousinfo.vi"/>
 		</Item>
 		<Item Name="Autonomous Paths" Type="Folder" URL="../../Autonomous Paths">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -160,7 +161,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		</Item>
 		<Item Name="Global Variables" Type="Folder">
-			<Item Name="autonomousinfo.vi" Type="VI" URL="../autonomousinfo.vi"/>
 			<Item Name="drivercommands.vi" Type="VI" URL="../drivercommands.vi"/>
 			<Item Name="driverdata.vi" Type="VI" URL="../driverdata.vi"/>
 			<Item Name="refnumbers.vi" Type="VI" URL="../refnumbers.vi"/>
@@ -887,7 +887,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">136</Property>
+				<Property Name="Bld_version.build" Type="Int">155</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

@@ -8,7 +8,7 @@ Confidence: easy peasy lemon squeezy
 *
 DriveWaitForTime=-1;
 DrivePath=6,10,-1,FiveBallAutoBPath1,normal;
-DriveWaitForBalls=0,2000;
+DriveWaitForBalls=0,2500;
 DrivePath=15,10,-1,FiveBallAutoBPath2,robot_suffix;
 DriveWaitForBalls=2,2000;
 DrivePath=15,25,-1,FiveBallAutoBPath3,normal;
