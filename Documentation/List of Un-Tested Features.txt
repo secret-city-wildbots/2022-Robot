@@ -5,3 +5,4 @@
 > timer to prevent immediate firing
 > only lag the turret when the robot is trying to fire, otherwise stay lock onto the center of the target
 > ability to tune the shoot while moving firing delay from the dashboard
+> switching the target height offset to the new ConfigureVariable.vi
