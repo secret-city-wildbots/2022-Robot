@@ -1,5 +1,2 @@
-*** LimeLight latency is back
-
-> Ball velocity compensation is currently off
-> Robot Profile (not updated on Alpha/Sidewinder/whatever its name is)
+> Robot Profile file (not updated on Alpha/Sidewinder/whatever its name is)
 > Automatic clear jams detection (current threshold to trigger not set)

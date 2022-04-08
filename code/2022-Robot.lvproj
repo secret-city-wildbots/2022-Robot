@@ -256,7 +256,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Shooter" Type="Folder">
 				<Item Name="InitShooter.vi" Type="VI" URL="../InitShooter.vi"/>
 				<Item Name="OutputShooter.vi" Type="VI" URL="../OutputShooter.vi"/>
-				<Item Name="ShooterBallVelocityCompensation.vi" Type="VI" URL="../ShooterBallVelocityCompensation.vi"/>
 				<Item Name="StateShooter.vi" Type="VI" URL="../StateShooter.vi"/>
 			</Item>
 			<Item Name="Turret" Type="Folder">
@@ -796,7 +795,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_Power CAN Device Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power CAN Device Type.ctl"/>
 				<Item Name="WPI_Power Discovered CAN Devices.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Discovered CAN Devices.vi"/>
 				<Item Name="WPI_Power Enable PD Switched Power.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Enable PD Switched Power.vi"/>
-				<Item Name="WPI_Power Get PD Currents.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PD Currents.vi"/>
 				<Item Name="WPI_Power Get PD Faults.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PD Faults.vi"/>
 				<Item Name="WPI_Power Get PD Voltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get PD Voltage.vi"/>
 				<Item Name="WPI_Power Get Pneumatic Faults.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Power/WPI_Power Get Pneumatic Faults.vi"/>
