@@ -2,3 +2,5 @@
 
 > calculated max robot rotational speed
 > path planner rotational FF
+> timer to prevent immediate firing
+> only lag the turret when the robot is trying to fire, otherwise stay lock onto the center of the target
