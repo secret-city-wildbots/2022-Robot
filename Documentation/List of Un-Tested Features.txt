@@ -1,1 +1,4 @@
 > Robot Profile file (not updated on Alpha/Sidewinder/whatever its name is)
+
+> calculated max robot rotational speed
+> path planner rotational FF
