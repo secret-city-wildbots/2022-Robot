@@ -104,11 +104,8 @@ AddOutputFilter chunkFilter
 					<Item Name="AutoFeedForwardConversion.vi" Type="VI" URL="../AutoFeedForwardConversion.vi"/>
 				</Item>
 				<Item Name="DriveAngleH.vi" Type="VI" URL="../DriveAngleH.vi"/>
-				<Item Name="DriveAngleHAdvanced.vi" Type="VI" URL="../DriveAngleHAdvanced.vi"/>
 				<Item Name="DriveDistanceX.vi" Type="VI" URL="../DriveDistanceX.vi"/>
-				<Item Name="DriveDistanceXAdvanced.vi" Type="VI" URL="../DriveDistanceXAdvanced.vi"/>
 				<Item Name="DriveDistanceY.vi" Type="VI" URL="../DriveDistanceY.vi"/>
-				<Item Name="DriveDistanceYAdvanced.vi" Type="VI" URL="../DriveDistanceYAdvanced.vi"/>
 				<Item Name="DriveEnd.vi" Type="VI" URL="../DriveEnd.vi"/>
 				<Item Name="DrivePath.vi" Type="VI" URL="../DrivePath.vi"/>
 				<Item Name="DriveSetRobotPosition.vi" Type="VI" URL="../DriveSetRobotPosition.vi"/>
