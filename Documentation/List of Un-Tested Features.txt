@@ -1,2 +1,1 @@
 > Robot Profile file (not updated on Alpha/Sidewinder/whatever its name is)
-> Automatic clear jams detection (current threshold to trigger not set)
