@@ -290,6 +290,7 @@ AddOutputFilter chunkFilter
 			<Item Name="BuildRollingArray.vim" Type="VI" URL="../BuildRollingArray.vim"/>
 			<Item Name="BumpSetpoint.vi" Type="VI" URL="../BumpSetpoint.vi"/>
 			<Item Name="ConfigureSetpoints.vi" Type="VI" URL="../ConfigureSetpoints.vi"/>
+			<Item Name="ConfigureVariable.vi" Type="VI" URL="../ConfigureVariable.vi"/>
 			<Item Name="CustomPID_v4.0.vi" Type="VI" URL="../CustomPID_v4.0.vi"/>
 			<Item Name="CustomPID_v4.1.vi" Type="VI" URL="../CustomPID_v4.1.vi"/>
 			<Item Name="DesyncInitCAN.vi" Type="VI" URL="../DesyncInitCAN.vi"/>
