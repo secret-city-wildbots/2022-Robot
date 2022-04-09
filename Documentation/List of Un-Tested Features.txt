@@ -7,3 +7,5 @@
 > ability to tune the shoot while moving firing delay from the dashboard
 > switching the target height offset to the new ConfigureVariable.vi
 > more easily tuned acceptable turret heading error
+> fixing a minor bug with reporting whether or not the robot is diverting power
+> master alarms are now determined on the robot and sent to the dashboard
