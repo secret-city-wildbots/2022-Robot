@@ -9,3 +9,5 @@
 > more easily tuned acceptable turret heading error
 > fixing a minor bug with reporting whether or not the robot is diverting power
 > master alarms are now determined on the robot and sent to the dashboard
+
+> the entire Kicker Motor everything....
