@@ -1,13 +1,5 @@
 > Robot Profile file (not updated on Alpha/Sidewinder/whatever its name is)
 
-> calculated max robot rotational speed
 > path planner rotational FF
-> timer to prevent immediate firing
-> only lag the turret when the robot is trying to fire, otherwise stay lock onto the center of the target
-> ability to tune the shoot while moving firing delay from the dashboard
-> switching the target height offset to the new ConfigureVariable.vi
-> more easily tuned acceptable turret heading error
-> fixing a minor bug with reporting whether or not the robot is diverting power
-> master alarms are now determined on the robot and sent to the dashboard
 
 > the entire Kicker Motor everything....
