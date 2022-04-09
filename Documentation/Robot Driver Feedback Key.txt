@@ -1,0 +1,28 @@
+------------------------------------------------------------
+Status LED Chasers
+------------------------------------------------------------
+Red - master caution alarm is active
+Orange - robot is running autonomously w/o alarms
+Green - robot is controlled by human w/o alarms
+------------------------------------------------------------
+Status LED Backgrounds
+------------------------------------------------------------
+Teal (solid) - normal driving
+Pink (blinking) - shooter spinning and not ready
+Pink (solid) - shooter spinning and ready
+Aquamarine (solid) - shooter firing
+Green (blinking) - signaling the HUMAN PLAYER
+Off - robot is diverting power to critical subsystems
+------------------------------------------------------------
+Photon Cannons
+------------------------------------------------------------
+On (solid) - intaking
+On (blinking) - intaking with at least two balls already
+------------------------------------------------------------
+Driver Vibrations
+------------------------------------------------------------
+Until IMU is reset when holding reset button
+Until valid target detected when holding reacquire button
+Until step advance button is pressed during a systems check
+While intaking, with short decrease when ball acquired
+While shooting, with short increase when ball is shot
