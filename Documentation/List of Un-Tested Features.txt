@@ -1,5 +1,1 @@
-> Robot Profile file (not updated on Alpha/Sidewinder/whatever its name is)
-
-> path planner rotational FF
-
 > the entire Kicker Motor everything....
