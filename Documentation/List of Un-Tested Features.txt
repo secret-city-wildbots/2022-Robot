@@ -1,1 +1,8 @@
 > the entire Kicker Motor everything....
+
+> robot can be in either low or high gear when running a systems check
+> tweaking the control frame periods for several motors
+> lowers the threshold for spitting out a jammed ball
+> different pressure venting alarm logic
+> turret locks forward when driving from the intake's perspective
+> shooter now slows down to reject a ball
