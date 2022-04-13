@@ -2,3 +2,4 @@
 
 > lowers the threshold for spitting out a jammed ball
 > shooter now slows down to reject a ball
+> velocity check now includes angle
