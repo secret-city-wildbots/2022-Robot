@@ -254,6 +254,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Shooter" Type="Folder">
 				<Item Name="InitShooter.vi" Type="VI" URL="../InitShooter.vi"/>
 				<Item Name="OutputShooter.vi" Type="VI" URL="../OutputShooter.vi"/>
+				<Item Name="ShooterRangeCompensation.vi" Type="VI" URL="../ShooterRangeCompensation.vi"/>
 				<Item Name="StateShooter.vi" Type="VI" URL="../StateShooter.vi"/>
 			</Item>
 			<Item Name="Turret" Type="Folder">
@@ -882,7 +883,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">197</Property>
+				<Property Name="Bld_version.build" Type="Int">198</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
