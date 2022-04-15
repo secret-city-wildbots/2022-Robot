@@ -1,1 +1,3 @@
 > rising edge trigger on the climber release re-latch
+> tweak to vent alarm
+> speeding up the climb sequencer
