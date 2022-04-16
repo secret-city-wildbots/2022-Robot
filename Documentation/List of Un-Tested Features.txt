@@ -1,2 +1,0 @@
-> rising edge trigger on the climber release re-latch
-> speeding up the climb sequencer
