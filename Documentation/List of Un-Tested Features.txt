@@ -1,3 +1,0 @@
-*** LimeLight latency is back
-
-> Ball velocity compensation is currently off

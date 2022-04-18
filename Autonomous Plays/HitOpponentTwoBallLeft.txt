@@ -1,0 +1,19 @@
+Name: HitOpponentTwoBallLeft
+Starting Location: line up with tarmac line
+Push Start Location (x,y,h): (262,225,315)
+Number of balls to start: 1
+What it does: hits opponent ball out of the way and shoots 2 balls from a left start position
+Revision: 4/17/2022
+Confidence: 0/0 but its okay
+*
+DriveWaitForTime=-1;
+DrivePath=15,10,6000,HitOpponentTwoBallLeft,normal;
+DriveEnd=;
+*=;
+ManipWaitForTime=-1;
+ManipPrespin=on;
+ManipIntake=on;
+ManipWaitForDrive=2;
+ManipShootBalls=on;
+ManipWaitForTime=15000;
+ManipEnd=;

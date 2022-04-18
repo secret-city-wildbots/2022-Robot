@@ -39,16 +39,6 @@ DriveDistanceX=param1,param2;
 2. The signed strafe command, note that the user must match the command sign to the distance sign.
 
 -----------------------------------------------------------
-
-DriveDistanceXAdvanced=param1,param2,param3,param4;
-# This VI drives the robot in the field-oriented x-direction, with orientation lock and overshoot prevention.
-
-1. The drive distance specified in inches [-630,630].
-2. The number of inches under the goal allowed [0,630].
-3. The number of inches above the goal allowed [0,630].
-4. Timeout specified in milliseconds, set to -1 to ignore [-1,15000].
-
------------------------------------------------------------
 DriveDistanceY=param1,param2;
 # This VI drives the robot in the field-oriented y-direction, note that there is no feedback control loop.
 
@@ -57,29 +47,11 @@ DriveDistanceY=param1,param2;
 
 -----------------------------------------------------------
 
-DriveDistanceYAdvanced=param1,param2,param3,param4;
-# This VI drives the robot in the field-oriented y-direction, with orientation lock and overshoot prevention.
-
-1. The drive distance specified in inches [-323,323].
-2. The number of inches under the goal allowed [0,323].
-3. The number of inches above the goal allowed [0,323].
-4. Timeout specified in milliseconds, set to -1 to ignore [-1,15000].
-
------------------------------------------------------------
-
 DriveAngleH=param1,param2;
 # This VI rotates the robot to the specified field-oriented angle.
 
 1. The goal angle specified in degrees on [0,360].
 2. The signed rotation command, note that the user must specify the desired rotation direction.
-
------------------------------------------------------------
-
-DriveAngleHAdvanced=param1,param2;
-# This VI rotates the robot to the specified field-oriented angle. The angle has to be within the specified range for a certain amount of time.
-
-1. The goal angle specified in degrees on [0,360].
-2. The error allowed, the number of degrees on either side of the goal allowed [0,360].
 
 -----------------------------------------------------------
 DriveSetRobotPosition=param1,param2;

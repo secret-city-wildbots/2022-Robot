@@ -1,0 +1,24 @@
+Name: MrScottFourBall
+Starting Location: facing forward, right side on line
+Push Start Location (x,y,h): (242,207, 45)
+Number of balls to start: 1
+What it does: shoots 2 balls from a right start positions
+Revision: 4/16/2022
+Confidence: 3/3
+*
+DriveWaitForTime=-1;
+DrivePath=6,5,-1,MrScottFourBallPath,normal;
+DriveWaitForBalls=2,2000;
+DrivePath=15,10,2000,MrScottFourBallPath2,normal;
+DriveEnd=;
+*=;
+ManipWaitForTime=-1;
+ManipPrespin=on;
+ManipIntake=on;
+ManipShootBalls=on;
+ManipWaitForDrive=2;
+ManipShootBalls=off;
+ManipWaitForDrive=4;
+ManipShootBalls=on;
+ManipWaitForTime=15000;
+ManipEnd=;
