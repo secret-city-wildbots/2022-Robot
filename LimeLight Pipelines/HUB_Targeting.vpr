@@ -37,7 +37,7 @@ img_to_show:1
 intersection_filter:0
 invert_hue:0
 multigroup_max:4
-multigroup_min:3
+multigroup_min:4
 multigroup_rejector:1
 pipeline_led_enabled:1
 pipeline_led_power:100

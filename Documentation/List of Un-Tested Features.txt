@@ -1,1 +1,0 @@
-> slightly decrease ball rejection latch
