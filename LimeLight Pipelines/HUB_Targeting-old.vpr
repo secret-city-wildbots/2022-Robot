@@ -47,7 +47,7 @@ red_balance:1200
 roi_x:0.000000
 roi_y:0.000000
 sat_max:255
-sat_min:162
+sat_min:119
 send_corners:0
 send_raw_contours:0
 solve3d:0
