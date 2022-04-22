@@ -1,0 +1,27 @@
+Name: TwoBallLeftWithReject
+Starting Location: line up with tarmac line
+Push Start Location (x,y,h): (242,207,45)
+Number of balls to start: 1
+What it does: shoots 2 balls from a left start position
+Revision: 4/22/2022
+Confidence: 0/0 but its okay
+*
+DriveWaitForTime=-1;
+DrivePath=15,10,3000,TwoBallAutoLeftSideways,normal;
+DriveWaitForManip=7;
+DrivePath=15,10,5000,TwoBallLeftOppBallPath,normal;
+DriveEnd=;
+*=;
+ManipWaitForTime=-1;
+ManipPrespin=on;
+ManipIntake=on;
+ManipWaitForDrive=2;
+ManipWaitForTime=1000;
+ManipShootBalls=on;
+ManipWaitForTime=4000;
+ManipShootBalls=off;
+ManipChangeGoalTargetPosition=150,275;
+ManipWaitForDrive=3;
+ManipShootBalls=on;
+ManipWaitForTime=15000;
+ManipEnd=;

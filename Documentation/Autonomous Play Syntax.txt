@@ -153,3 +153,9 @@ ManipHumanPlayerSignal=param1;
 1. Set to "on" to signal human player or "off" to stop
 
 -----------------------------------------------------------
+
+ManipChangeGoalTargetPosition=param1,param2;
+# This VI changes the target goal position
+
+1. target x position
+2. target y position
