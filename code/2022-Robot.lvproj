@@ -127,7 +127,6 @@ AddOutputFilter chunkFilter
 				<Item Name="ManipWaitForTime.vi" Type="VI" URL="../ManipWaitForTime.vi"/>
 				<Item Name="ManipHumanPlayerSignal.vi" Type="VI" URL="../ManipHumanPlayerSignal.vi"/>
 				<Item Name="ManipPrespin.vi" Type="VI" URL="../ManipPrespin.vi"/>
-				<Item Name="ManipChangeGoalTargetPosition.vi" Type="VI" URL="../ManipChangeGoalTargetPosition.vi"/>
 			</Item>
 			<Item Name="AutoInit.vi" Type="VI" URL="../AutoInit.vi"/>
 			<Item Name="AutoParameterStringToArray.vi" Type="VI" URL="../AutoParameterStringToArray.vi"/>
