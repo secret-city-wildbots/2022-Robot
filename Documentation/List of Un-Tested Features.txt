@@ -1,0 +1,4 @@
+> Changes to manipulator control schema
+> Changes to receiving data from the dashboard
+> Changes to sending data to the dashboard
+> Changes to TriggerUpdate.vi

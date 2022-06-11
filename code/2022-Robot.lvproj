@@ -147,7 +147,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Communications" Type="Folder">
 			<Item Name="DriverStationGetCommands.vi" Type="VI" URL="../DriverStationGetCommands.vi"/>
 			<Item Name="DriverStationGetData.vi" Type="VI" URL="../DriverStationGetData.vi"/>
-			<Item Name="DriverStationPushData.vi" Type="VI" URL="../DriverStationPushData.vi"/>
+			<Item Name="DriverStationSendData.vi" Type="VI" URL="../DriverStationSendData.vi"/>
 			<Item Name="InitDriverControl.vi" Type="VI" URL="../InitDriverControl.vi"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder" URL="../../Documentation">
