@@ -2,3 +2,6 @@
 > Changes to receiving data from the dashboard
 > Changes to sending data to the dashboard
 > Changes to TriggerUpdate.vi
+
+> Changes the Boost_Drive_Train name for clarity
+> All sensors are now initialized with their sub-system for increased modularity
