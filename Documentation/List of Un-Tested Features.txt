@@ -5,3 +5,5 @@
 
 > Changes the Boost_Drive_Train name for clarity
 > All sensors are now initialized with their sub-system for increased modularity
+
+> Wraps the IMU simulation code into the same VI as the main IMU code
