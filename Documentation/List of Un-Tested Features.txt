@@ -7,3 +7,5 @@
 > All sensors are now initialized with their sub-system for increased modularity
 
 > Wraps the IMU simulation code into the same VI as the main IMU code
+
+> Hopefully improves the error windup behavior for the pose algorithm
