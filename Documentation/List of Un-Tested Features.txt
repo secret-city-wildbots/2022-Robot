@@ -10,3 +10,5 @@
 > Changes to TriggerUpdate.vi
 
 > Major changes to the ball rejection code
+
+> Baseline current measurement VI
