@@ -1,14 +1,7 @@
-> Changes the Boost_Drive_Train name for clarity
-> All sensors are now initialized with their sub-system for increased modularity
+> Changes to manipulator commands (need to be reflected on dashboard)
 
-> Wraps the IMU simulation code into the same VI as the main IMU code
+
+
+> Tune the baseline current measurements
+> Tune HANGER ball rejection
 > Hopefully improves the error windup behavior for the pose algorithm
-
-> Changes to manipulator control schema
-> Changes to receiving data from the dashboard
-> Changes to sending data to the dashboard
-> Changes to TriggerUpdate.vi
-
-> Major changes to the ball rejection code
-
-> Baseline current measurement VI
