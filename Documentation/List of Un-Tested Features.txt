@@ -1,5 +1,9 @@
 > Fix control latency issue
 > Finalize new dashboard layout
+> Fix actuator testing lockout
+> Test robot control with dashboard OFF
+> Turret angle setpoint control
+> Reset fender setpoint
 
 > Tune the baseline current measurements
 > Tune HANGER ball rejection
