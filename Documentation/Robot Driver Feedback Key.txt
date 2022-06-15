@@ -27,3 +27,7 @@ Until valid target detected when holding reacquire button
 Until step advance button is pressed during a systems check
 While intaking, with short decrease when ball acquired
 While shooting, with short increase when ball is shot
+------------------------------------------------------------
+Manipulator Vibrations
+------------------------------------------------------------
+While toggeling the master safety override
