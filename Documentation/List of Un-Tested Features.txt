@@ -1,10 +1,5 @@
-> Fix control latency issue
-> Finalize new dashboard layout
-> Fix actuator testing lockout
-> Test robot control with dashboard OFF
-> Turret angle setpoint control
-> Reset fender setpoint
+> Reliably fix LimeLight NT lag
+> If LL is stable, try increasing power limit on turret
 
-> Tune the baseline current measurements
 > Tune HANGER ball rejection
-> Hopefully improves the error windup behavior for the pose algorithm
+> Tune the baseline current measurements

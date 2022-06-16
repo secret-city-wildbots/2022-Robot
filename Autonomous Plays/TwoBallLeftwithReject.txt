@@ -21,6 +21,5 @@ ManipShootBalls=on;
 ManipWaitForTime=4000;
 ManipShootBalls=off;
 ManipWaitForDrive=3;
-ManipShootBalls=on;
 ManipWaitForTime=15000;
 ManipEnd=;
