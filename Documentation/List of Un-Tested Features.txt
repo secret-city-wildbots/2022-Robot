@@ -2,4 +2,8 @@
 > If LL is stable, try increasing power limit on turret
 
 > Tune HANGER ball rejection
+
 > Tune the baseline current measurements
+> imu reset
+
+> Still sometimes getting a motor lockout?
