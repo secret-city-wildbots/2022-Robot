@@ -3,11 +3,11 @@ Starting Location: on the robot cart
 Push Start Location (x,y,h): not needed
 Number of balls to start: 0
 What it does: allows the driver to advance through a systems check
-Revision: 3/5/2022
+Revision: 6/18/2022
 Confidence: confident
 *
+DriveSetRobotPosition=124,62;
 DriveWaitForManip=15;
-DriveSetRobotPosition=100,75;
 DriveWaitForButton=;
 DriveDistanceX=400,0.2;
 DriveWaitForTime=2000;
@@ -18,6 +18,7 @@ DriveWaitForTime=2000;
 DriveDistanceY=-200,-0.2;
 DriveWaitForTime=2000;
 DriveAngleH=180,0.2;
+DriveAngleH=0,0.2;
 DriveWaitForButton=;
 DriveDistanceX=350,1.0;
 DriveEnd=;
