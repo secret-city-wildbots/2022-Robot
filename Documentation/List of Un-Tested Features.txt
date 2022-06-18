@@ -5,5 +5,3 @@
 
 > Tune the baseline current measurements
 > imu reset
-
-> Still sometimes getting a motor lockout?
