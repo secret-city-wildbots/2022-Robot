@@ -1,4 +1,1 @@
-> Reliably fix LimeLight NT lag
-> If LL is stable, try increasing power limit on turret
-
-> Tune HANGER ball rejection
+> Extensively practice and tune HANGER ball rejection
