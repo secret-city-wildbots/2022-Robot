@@ -1,19 +1,18 @@
-Name: OneBallAutoLong
-Starting Location: top corner of tarmac or anywhere you can drive straight back facing forward
-Push Start Location (x,y,h): (324,72,0) (if you mark where you put the robot elsewhere turn on fusion while auto)
-Number of balls to start: 1
-What it does: drives backwards (farther than OneBallAuto) and shoots one preloaded ball
-Revision: 3/24/2022
-Confidence: 4/4
+Robot starts with 1 ball anywhere you can drive straight back from.
+
+X = 324
+Y = 72
+H = 0
+
 *
-DriveWaitForTime=-1;
-DriveDistanceX=-80,-.4;
-DriveEnd=;
-*=;
-ManipPrespin=on;
-ManipWaitForTime=-1;
-ManipWaitForDrive=2;
-ManipWaitForTime=1000;
-ManipShootBalls=on;
-ManipWaitForTime=1500;
-ManipEnd=;
+DriveWaitForTime(-1)
+DriveDistanceX(-80, -0.4)
+DriveEnd()
+*
+ManipPrespin(on)
+ManipWaitForTime(-1)
+ManipWaitForDrive(2)
+ManipWaitForTime(1000)
+ManipShootBalls(on)
+ManipWaitForTime(15000)
+ManipEnd()

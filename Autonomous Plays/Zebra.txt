@@ -1,41 +1,40 @@
-Name: Zebra
-Starting Location: on the robot cart
-Push Start Location (x,y,h): not needed
-Number of balls to start: 0
-What it does: allows the driver to advance through a systems check
-Revision: 6/18/2022
-Confidence: confident
+Performs an automated systems check. This play should only be run with the robot on blocks or a cart.
+
+X = any
+Y = any
+H = any
+
 *
-DriveSetRobotPosition=124,62;
-DriveWaitForManip=15;
-DriveWaitForButton=;
-DriveDistanceX=400,0.2;
-DriveWaitForTime=2000;
-DriveDistanceY=200,0.2;
-DriveWaitForTime=2000;
-DriveDistanceX=-400,-0.2;
-DriveWaitForTime=2000;
-DriveDistanceY=-200,-0.2;
-DriveWaitForTime=2000;
-DriveAngleH=180,0.2;
-DriveAngleH=0,0.2;
-DriveWaitForButton=;
-DriveDistanceX=350,1.0;
-DriveEnd=;
-*=;
-ManipWaitForButton=;
-ManipIntake=on;
-ManipWaitForTime=4000;
-ManipWaitForButton=;
-ManipIntake=off;
-ManipWaitForButton=;
-ManipPrespin=on;
-ManipWaitForButton=;
-ManipShootBalls=on;
-ManipForceFire=on;
-ManipWaitForTime=4000;
-ManipWaitForButton=;
-ManipForceFire=off;
-ManipShootBalls=off;
-ManipPrespin=off;
-ManipEnd=;
+DriveSetRobotPosition(124,62) # set robot position to consistent location
+DriveWaitForManip(15) # wait until manipulator sequence is complete
+DriveWaitForButton()
+DriveDistanceX(400, 0.2) # drive forward
+DriveWaitForTime(2000)
+DriveDistanceY(200, 0.2) # drive left
+DriveWaitForTime(2000)
+DriveDistanceX(-400, -0.2) # drive backward
+DriveWaitForTime(2000)
+DriveDistanceY(-200, -0.2) # drive right
+DriveWaitForTime(2000)
+DriveAngleH(180, 0.2) # rotate counter-clockwise
+DriveAngleH(0, 0.2) # complete rotation
+DriveWaitForButton()
+DriveDistanceX(350, 1.0) # high gear sprint down-field
+DriveEnd()
+*
+ManipWaitForButton() # wait for a human to start the sequence
+ManipIntake(on) # test the intake
+ManipWaitForTime(4000)
+ManipWaitForButton()
+ManipIntake(off)
+ManipWaitForButton()
+ManipPrespin(on) # test the shooter
+ManipWaitForButton()
+ManipShootBalls(on) # test the kicker
+ManipForceFire(on)
+ManipWaitForTime(4000)
+ManipWaitForButton()
+ManipForceFire(off) # start shooter shut-down
+ManipShootBalls(off)
+ManipPrespin(off)
+ManipEnd()

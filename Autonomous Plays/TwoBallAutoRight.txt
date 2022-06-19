@@ -1,19 +1,18 @@
-Name: TwoBallAutoRight
-Starting Location: facing forward, right side on line
-Push Start Location (x,y,h): (300,72, 0)
-Number of balls to start: 1
-What it does: shoots 2 balls from a right start positions
-Revision: 4/16/2022
-Confidence: 3/3
+Robot starts with 1 ball in the right TARMAC and then picks up 1 ball.
+
+X = 300
+Y = 72
+H = 0
+
 *
-DriveWaitForTime=-1;
-DrivePath=6,5,3000,TwoBallAutoPathRight,normal;
-DriveEnd=;
-*=;
-ManipWaitForTime=-1;
-ManipPrespin=on;
-ManipIntake=on;
-ManipWaitForDrive=2;
-ManipShootBalls=on;
-ManipWaitForTime=15000;
-ManipEnd=;
+DriveWaitForTime(-1)
+DrivePath(6, 5, 3000, TwoBallAutoPathRight, normal)
+DriveEnd()
+*
+ManipWaitForTime(-1)
+ManipPrespin(on)
+ManipIntake(on)
+ManipWaitForDrive(2)
+ManipShootBalls(on)
+ManipWaitForTime(15000)
+ManipEnd()
