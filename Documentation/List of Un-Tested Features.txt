@@ -1,3 +1,1 @@
 > Extensively practice and tune HANGER ball rejection
-
-> New auto play parser

@@ -1,9 +1,11 @@
 ------------------------------------------------------------
 Status LED Chasers
 ------------------------------------------------------------
-Red - master caution alarm is active
-Orange - robot is running autonomously w/o alarms
-Green - robot is controlled by human w/o alarms
+Red/? - master alarm is active
+Yellow/? - master caution is active
+Green/? - no alarms or cautions
+?/Orange - robot is running autonomously
+?/Green - robot is controlled by human
 ------------------------------------------------------------
 Status LED Backgrounds
 ------------------------------------------------------------
@@ -30,4 +32,5 @@ While shooting, with short increase when ball is shot
 ------------------------------------------------------------
 Manipulator Vibrations
 ------------------------------------------------------------
-While toggeling the master safety override
+While toggling the master safety override
+While toggling the TCP override
