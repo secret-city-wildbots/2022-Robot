@@ -317,7 +317,6 @@ AddOutputFilter chunkFilter
 			<Item Name="SearchTimestampArray.vi" Type="VI" URL="../SearchTimestampArray.vi"/>
 			<Item Name="SendMessageToConsole.vi" Type="VI" URL="../SendMessageToConsole.vi"/>
 			<Item Name="StateSelectionEnum.vim" Type="VI" URL="../StateSelectionEnum.vim"/>
-			<Item Name="StateSelectionString.vi" Type="VI" URL="../StateSelectionString.vi"/>
 			<Item Name="StickyButton.vi" Type="VI" URL="../StickyButton.vi"/>
 			<Item Name="TestActuatorInterlock.vi" Type="VI" URL="../TestActuatorInterlock.vi"/>
 			<Item Name="Timer.vi" Type="VI" URL="../Timer.vi"/>
