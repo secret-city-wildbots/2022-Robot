@@ -1,0 +1,27 @@
+Robot starts in the right TARMAC with 1 ball. Then picks up 4 balls and shoots them.
+
+X = 300
+Y = 72
+H = 0
+
+*
+DriveWaitForTime(-1)
+DrivePath(6, 10, -1, FiveBallAutoBPath1, normal) # get balls 2 and 3
+DriveWaitForBalls(0, 2500)
+DrivePath(15, 10, -1, FiveBallAutoBPath2, robot_suffix) # get balls 4 and 5
+DriveWaitForBalls(2, 1500)
+DrivePath(15, 25, 1000, FiveBallAutoBPath3,normal) # shoot balls 4 and 5
+DriveEnd()
+*
+ManipWaitForTime(-1)
+ManipPrespin(on)
+ManipIntake(on)
+ManipWaitForDrive(2)
+ManipShootBalls(on)
+ManipWaitForDrive(3)
+ManipWaitForDistance(-24, -1)
+ManipShootBalls(off)
+ManipWaitForDrive(6)
+ManipShootBalls(on)
+ManipWaitForTime(15000)
+ManipEnd()

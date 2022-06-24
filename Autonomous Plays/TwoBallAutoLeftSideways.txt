@@ -1,20 +1,19 @@
-Name: TwoBallAutoLeftSideways
-Starting Location: line up with tarmac line
-Push Start Location (x,y,h): (242,207,45)
-Number of balls to start: 1
-What it does: shoots 2 balls from a left start position
-Revision: 4/16/2022
-Confidence: 0/0 but its okay
+Robot starts with 1 ball in the left TARMAC and then picks up 1 ball.
+
+X = 242
+Y = 207
+H = 45
+
 *
-DriveWaitForTime=-1;
-DrivePath=15,10,3000,TwoBallAutoLeftSideways,normal;
-DriveEnd=;
-*=;
-ManipWaitForTime=-1;
-ManipPrespin=on;
-ManipIntake=on;
-ManipWaitForDrive=2;
-ManipWaitForTime=1000;
-ManipShootBalls=on;
-ManipWaitForTime=15000;
-ManipEnd=;
+DriveWaitForTime(-1)
+DrivePath(15, 10, 3000, TwoBallAutoLeftSideways, normal)
+DriveEnd()
+*
+ManipWaitForTime(-1)
+ManipPrespin(on)
+ManipIntake(on)
+ManipWaitForDrive(2)
+ManipWaitForTime(1000)
+ManipShootBalls(on)
+ManipWaitForTime(15000)
+ManipEnd()

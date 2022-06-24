@@ -1,0 +1,24 @@
+Robot starts in left TARMAC with 1 ball. Then it picks up 1 ball and shoots. Then it picks up opposing ball and rejects it to the HANGER.
+
+X = 242
+Y = 207
+H = 45
+
+*
+DriveWaitForTime(-1)
+DrivePath(15, 10, 3000, TwoBallAutoLeftSideways, normal) # pick up OUR ball
+DriveWaitForManip(7)
+DrivePath(15, 10, 5000, TwoBallLeftOppBallPath, normal) # pick up THEIR ball
+DriveEnd()
+*
+ManipWaitForTime(-1)
+ManipPrespin(on)
+ManipIntake(on)
+ManipWaitForDrive(2)
+ManipWaitForTime(1000)
+ManipShootBalls(on)
+ManipWaitForTime(4000)
+ManipShootBalls(off)
+ManipWaitForDrive(3)
+ManipWaitForTime(15000)
+ManipEnd()
