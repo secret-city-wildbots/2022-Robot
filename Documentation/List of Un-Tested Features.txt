@@ -1,1 +1,1 @@
-> Extensively practice and tune HANGER ball rejection
+> changes to CAN device initialization
