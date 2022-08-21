@@ -1,1 +1,2 @@
 > changes to CAN device initialization
+> reduced control output parrallelism
